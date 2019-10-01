@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center">
+<!--<p align="center">
   <img src="https://qianlou.github.io/files/lq.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
-
+-->
 * I am a graduate student in the [Intelligent System Engineering Department](https://engineering.indiana.edu/) at [Indiana University Bloomington](https://www.indiana.edu/), advised by Prof. [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). [[My Curriculum Vitae](http://qianlou.github.io/files/lq_cv.pdf)] 
 * My research interests lie in the general area of machine learning, particularly in deep learning acceleration and privacy preserving deep learning, as well as their applications to solve security and privacy issues.
 * I received my Bachelor’s Degree in elite class (top 30/ 500) of [Shandong University](http://www.en.sdu.edu.cn/). 
