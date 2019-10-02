@@ -10,9 +10,9 @@ author_profile: true
 
 <b>[A Fast and Accurate Privacy-Preserving Deep Neural Network Via Leveled TFHE and Logarithmic Data Representation](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
-<i>The 36th International Conference on Machine Learning, workhop on security and privacy of machine learning.</i>. <b>ICML 2019 workshop.</b>.<span style="color:blue">[[poster]](http://qianlou.github.io/files/ICML2019.pdf)</span>
+<i>The 36th International Conference on Machine Learning, workhop on security and privacy of machine learning.</i>. <b>ICML 2019 workshop</b>.<span style="color:blue">[[poster]](http://qianlou.github.io/files/ICML2019.pdf)</span>
 
-<b>[HolyLight: A Nanophotonic Accelerator for Deep Learning in Data Centers.](http://qianlou.github.io/publications/DATE2019)</b> <br> 
+<b>[HolyLight: A Nanophotonic Accelerator for Deep Learning in Data Centers](http://qianlou.github.io/publications/DATE2019)</b> <br> 
 Weichen Liu, Wenyang Liu, Yichen Ye, <b>Qian Lou</b>, Yiyuan Xie, Lei Jiang
 <i>2019 Design, Automation & Test in Europe Conference & Exhibition</i>. <b>DATE 2019</b>. 
 
