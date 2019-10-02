@@ -6,14 +6,14 @@ author_profile: true
 <br>
 <b>[SHE:A fast and accurate deep neural networks for encrypted data](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
-<i>The 33rd Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2019</b>.<span style="color:blue">[[code]](https://github.com/qianlou/SHE)</span>
+<i>The 33rd Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2019</b>. <span style="color:blue">[[code]](https://github.com/qianlou/SHE)</span>
 
 <b>[A Fast and Accurate Privacy-Preserving Deep Neural Network Via Leveled TFHE and Logarithmic Data Representation](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
-<i>The 36th International Conference on Machine Learning, workhop on security and privacy of machine learning.</i>. <b>ICML 2019 workshop</b>.<span style="color:blue">[[poster]](http://qianlou.github.io/files/ICML2019.pdf)</span>
+<i>The 36th International Conference on Machine Learning, workhop on security and privacy of machine learning.</i>. <b>ICML 2019 workshop</b>. <span style="color:blue">[[poster]](http://qianlou.github.io/files/ICML2019.pdf)</span>
 
 <b>[HolyLight: A Nanophotonic Accelerator for Deep Learning in Data Centers](http://qianlou.github.io/publications/DATE2019)</b> <br> 
-Weichen Liu, Wenyang Liu, Yichen Ye, <b>Qian Lou</b>, Yiyuan Xie, Lei Jiang
+Weichen Liu, Wenyang Liu, Yichen Ye, <b>Qian Lou</b>, Yiyuan Xie, Lei Jiang.
 <i>2019 Design, Automation & Test in Europe Conference & Exhibition</i>. <b>DATE 2019</b>. 
 
 <b>[3DICT: a reliable and QoS capable mobile process-in-memory architecture for lookup-based CNNs in 3D XPoint ReRAMs](http://qianlou.github.io/publications/ICCAD2018)</b> <br>
