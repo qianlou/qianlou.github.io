@@ -14,7 +14,7 @@ redirect_from:
 -->
 * I am a graduate student in the [Intelligent System Engineering Department](https://engineering.indiana.edu/) at [Indiana University Bloomington](https://www.indiana.edu/), advised by Prof. [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). [[My Curriculum Vitae](http://qianlou.github.io/files/lq_cv.pdf)] 
 * My research interests lie in the general area of machine learning, particularly in deep learning acceleration and privacy preserving deep learning, as well as their applications to solve security and privacy issues.
-* I received my Bachelor’s Degree in elite class (top 30/ 500) of [Shandong University](http://www.en.sdu.edu.cn/). 
+* I received my Bachelor’s Degree in the elite class of [Shandong University](http://www.en.sdu.edu.cn/). 
 
 
 
@@ -23,7 +23,7 @@ redirect_from:
 * August 26, 2019. one paper accepted to ASPDAC 2020.
 * June 10, 2019. one paper accepted to ICML 2019 workshop.
 * November 10, 2018. One paper accepted to DATE 2019.
-* Septemper 3, 2018. One paper accepted to CAL.
+* Septemper 3, 2018. One paper accepted to Computer Architecture Letter (CAL 2018).
 * July 3, 2018. One paper accepted to ICCAD 2018 as the best paper nominee.
 
 
