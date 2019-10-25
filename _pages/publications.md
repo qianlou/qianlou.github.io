@@ -6,7 +6,7 @@ author_profile: true
 <br>
 <b>[SHE:A fast and accurate deep neural networks for encrypted data](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
-<i>The 33rd Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2019</b>. <span style="color:blue">[[code]](https://github.com/qianlou/SHE)</span>
+<i>The 33rd Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2019</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1906.00148)</span> <span style="color:blue">[[slides]](http://qianlou.github.io/files/NIPS_slides.pptx)</span> <span style="color:blue">[[Poster]](http://qianlou.github.io/files/NIPS_poster.PPTX)</span> <span style="color:blue">[[code]](https://github.com/qianlou/SHE)</span>
 
 <b>[A Fast and Accurate Privacy-Preserving Deep Neural Network Via Leveled TFHE and Logarithmic Data Representation](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
