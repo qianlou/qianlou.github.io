@@ -17,8 +17,9 @@ redirect_from:
 * I received my Bachelor’s Degree in the elite class of [Shandong University](http://www.en.sdu.edu.cn/). 
 
 
-
 # Recent News
+* November 15, 2019. Qian will be a reviewer for ICML 2020. 
+* November 6, 2019. One paper accepted to DATE 2020.
 * September 3, 2019. One paper (SHE: A Fast and Accurate Deep Neural Network over Encrypted Data) accepted to NeurIPS 2019.
 * August 26, 2019. one paper accepted to ASPDAC 2020.
 * June 10, 2019. one paper accepted to ICML 2019 workshop.
