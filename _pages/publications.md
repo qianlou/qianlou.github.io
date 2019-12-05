@@ -4,12 +4,12 @@ permalink: /publications/
 author_profile: true
 ---
 <br>
-<b>More publications are introduced in my [CV](http://qianlou.github.io/files/lq_cv.pdf)</b> <br> 
+<b>More publications are introduced in my [CV.](http://qianlou.github.io/files/lq_cv.pdf)</b> <br> 
 
 
 <b>[Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data](https://arxiv.org/abs/1911.07101)</b> <br> 
 <b>Qian Lou</b>, Bo Feng, Geofrry Fox, Lei Jiang.
-<i></i>. <b>Arxiv preprint</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1911.07101)</span> 
+<i></i><b>Arxiv preprint</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1911.07101)</span> 
 
 <b>[SHE:A fast and accurate deep neural networks for encrypted data](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
