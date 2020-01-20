@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Qian Lou"
+title: "About me"
 excerpt: "About Qian LOu"
 author_profile: true
 redirect_from: 
