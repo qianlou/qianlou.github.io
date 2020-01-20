@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Qian Lou"
 title_separator          : "-"
 name                     : &name "Qian Lou"
-description              : &description "Graduate student, Computer Engineering, Indiana University Bloomington"
+description              : &description "Ph.D. candidate, Computer Engineering, Indiana University Bloomington"
 url                      : https://qianlou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "qianlou/qianlou.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Qian Lou"
   avatar           : "lq.jpg"
-  bio              : "Graduate student, Computer Engineering, Indiana University Bloomington"
+  bio              : "Ph.D. candidate, Computer Engineering, Indiana University Bloomington"
   location         : "Bloomington, Indiana"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en"
