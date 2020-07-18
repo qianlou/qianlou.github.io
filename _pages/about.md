@@ -15,7 +15,7 @@ redirect_from:
 * I am an associate instructor and research assistant in the [Intelligent Systems Engineering Department](https://engineering.indiana.edu/) at [Indiana University Bloomington](https://www.indiana.edu/). [[My Curriculum Vitae](http://qianlou.github.io/files/lq_cv.pdf)] 
 * My research interests lie in the general area of computer architecture, particularly in deep learning acceleration and privacy-preserving deep learning.
 * I received my Master’s Degree at [Intelligent Systems Engineering Department at Indiana University](https://engineering.indiana.edu/).
-* I received my Bachelor’s Degree in the elite class of [Computer Science department at Shandong University](http://www.cs.en.qd.sdu.edu.cn/). 
+* I received my Bachelor’s Degree at [Computer Science department at Shandong University](http://www.cs.en.qd.sdu.edu.cn/). 
 
 # Committee Services
 * NeurIPS 2020 reviewer
@@ -25,6 +25,8 @@ redirect_from:
 
 
 # Recent News
+* July 16, 2020. One paper accepted to PACT 2020.
+* July 10, 2020. Qian received DAC young fellowship.
 * December 20, 2019. One paper (Automated Kernel-Wise Deep Neural Network Quantization) accepted to ICLR 2020.
 * November 15, 2019. Qian will be a reviewer for ICML 2020. 
 * November 6, 2019. One paper accepted to DATE 2020.
