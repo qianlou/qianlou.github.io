@@ -13,11 +13,11 @@ author_profile: true
 
 <b>[Helix: Algorithm/Architecture Co-design for Accelerating Nanopore Genome Base-calling](http://qianlou.github.io)</b> <br> 
 <b>Qian Lou</b>, Sarath Janga, Lei Jiang.
-<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i><b>PACT 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1911.07101)</span> 
+<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i>. <b>PACT 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1911.07101)</span> 
 
 <b>[AutoQ: Automated Kernel-Wise Neural Network Quantization](https://openreview.net/forum?id=rygfnn4twS)</b> <br> 
 <b>Qian Lou</b>, Feng Guo, Minje Kim, Lantao Liu, Lei Jiang.
-<i>International Conference on Learning Representations</i><b>ICLR 2020</b>. <span style="color:blue">[[pdf]](https://openreview.net/pdf?id=rygfnn4twS)</span> 
+<i>International Conference on Learning Representations</i>. <b>ICLR 2020</b>. <span style="color:blue">[[pdf]](https://openreview.net/pdf?id=rygfnn4twS)</span> 
 
 <b>[SHE:A fast and accurate deep neural networks for encrypted data](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
