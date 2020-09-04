@@ -18,6 +18,7 @@ redirect_from:
 * I received my Bachelor’s Degree at [Computer Science department at Shandong University](http://www.cs.en.qd.sdu.edu.cn/). 
 
 # Committee Services
+* AAAI 2021 program committee
 * NeurIPS 2020 reviewer
 * ICML 2020 reviewer
 * ACM JETC reviewer 
