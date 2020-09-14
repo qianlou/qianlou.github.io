@@ -13,7 +13,7 @@ author_profile: true
 
 <b>[Helix: Algorithm/Architecture Co-design for Accelerating Nanopore Genome Base-calling](http://qianlou.github.io)</b> <br> 
 <b>Qian Lou</b>, Sarath Janga, Lei Jiang.
-<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i>. <b>PACT 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1911.07101)</span> 
+<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i>. <b>PACT 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/2008.03107)</span> 
 
 <b>[AutoQ: Automated Kernel-Wise Neural Network Quantization](https://openreview.net/forum?id=rygfnn4twS)</b> <br> 
 <b>Qian Lou</b>, Feng Guo, Minje Kim, Lantao Liu, Lei Jiang.
@@ -21,7 +21,7 @@ author_profile: true
 
 <b>[SHE:A fast and accurate deep neural networks for encrypted data](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
-<i>The 33rd Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2019</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1906.00148)</span> <span style="color:blue">[[slides]](http://qianlou.github.io/files/NIPS_slides.pptx)</span> <span style="color:blue">[[poster]](http://qianlou.github.io/files/NIPS_poster.PPTX)</span> <span style="color:blue">[[code]](https://github.com/qianlou/SHE)</span>
+<i>The 33rd Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2019</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1906.00148)</span> <span style="color:blue">[[slides]](http://qianlou.github.io/files/NIPS_poster.pptx)</span> <span style="color:blue">[[poster]](http://qianlou.github.io/files/NIPS_poster.PPTX)</span> <span style="color:blue">[[code]](https://github.com/qianlou/SHE)</span>
 
 <b>[A Fast and Accurate Privacy-Preserving Deep Neural Network Via Leveled TFHE and Logarithmic Data Representation](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, Lei Jiang.
