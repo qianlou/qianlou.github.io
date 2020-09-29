@@ -26,17 +26,17 @@ redirect_from:
 <!--* IEEE ASPDAC 2018 sub-reviewer-->
 
 # Recent News
-* September 25, 2020. Three first-author papers are accepted to NeurIPS 2020.
-* July 16th, 2020. One first-author paper is accepted to PACT 2020 (Best paper nomination).
+* September 25th, 2020. Three first-author papers are accepted by NeurIPS 2020.
+* July 16th, 2020. One first-author paper is accepted by PACT 2020 (Best paper nomination).
 * July 10th, 2020. Qian received a DAC young fellowship.
-* December 20th, 2019. One first-author paper is accepted to ICLR 2020.
+* December 20th, 2019. One first-author paper is accepted by ICLR 2020.
 * November 15th, 2019. Qian will be a reviewer for ICML 2020. 
-* November 6th, 2019. One first-author paper is accepted to DATE 2020.
-* September 3rd, 2019. One first-author paper is accepted to NeurIPS 2019.
-* August 26th, 2019. one first-author paper is accepted to ASP-DAC 2020.
-* June 10th, 2019. one paper is accepted to ICML 2019 workshop.
-* November 10th, 2018. One paper is accepted to DATE 2019.
-* September 3rd, 2018. One paper is accepted to Computer Architecture Letters (CAL 2018).
-* July 3rd, 2018. One first-author paper is accepted to ICCAD 2018 as the best paper nominee.
+* November 6th, 2019. One first-author paper is accepted by DATE 2020.
+* September 3rd, 2019. One first-author paper is accepted by NeurIPS 2019.
+* August 26th, 2019. one first-author paper is accepted by ASP-DAC 2020.
+* June 10th, 2019. one paper is accepted by ICML 2019 workshop.
+* November 10th, 2018. One paper is accepted by DATE 2019.
+* September 3rd, 2018. One paper is accepted by Computer Architecture Letters (CAL 2018).
+* July 3rd, 2018. One first-author paper is accepted by ICCAD 2018.
 
 
