@@ -9,15 +9,15 @@ author_profile: true
 
 <b>[Falcon: Fast Spectral Inference on Encrypted data](https://arxiv.org/abs/2006.04219)</b> <br> 
 <b>Qian Lou</b>, Wen-je Lu, Cheng Hong, and Lei Jiang.
-<i>The 34th Conference on Neural Information Processing Systems</i><b>NeurIPS 2020</b>. <span style="color:blue"></span>
+<i>The 34th Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2020</b>. <span style="color:blue"></span>
 
 <b>[AutoPrivacy: Automated Layer-wise Parameter Selection for Secure Neural Network Inference](https://arxiv.org/abs/2006.04219)</b> <br> 
 <b>Qian Lou</b>, Song Bian, and Lei Jiang.
-<i>The 34th Conference on Neural Information Processing Systems</i><b>NeurIPS 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/2006.04219)</span> 
+<i>The 34th Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/2006.04219)</span> 
 
 <b>[Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data](https://arxiv.org/abs/1911.07101)</b> <br> 
 <b>Qian Lou</b>, Bo Feng, Geofrry Fox and Lei Jiang.
-<i>The 34th Conference on Neural Information Processing Systems</i><b>NeurIPS 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1911.07101)</span> 
+<i>The 34th Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2020</b>. <span style="color:blue">[[pdf]](https://arxiv.org/abs/1911.07101)</span> 
 
 <b>[Helix: Algorithm/Architecture Co-design for Accelerating Nanopore Genome Base-calling](http://qianlou.github.io)</b> <br> 
 <b>Qian Lou</b>, Sarath Janga and Lei Jiang.
