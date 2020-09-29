@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 <br>
-<b>The following shows my selected publications. PLease find my [DBLP.](https://dblp.org/pid/207/3962.html) for more publications. </b> <br> 
+<b>Check my full publication list on [dblp](https://dblp.org/pid/207/3962.html) and [google scholar](https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en).</b> <br> 
 
 
 <b>[Falcon: Fast Spectral Inference on Encrypted data](https://arxiv.org/abs/2006.04219)</b> <br> 
