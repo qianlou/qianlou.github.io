@@ -12,8 +12,8 @@ redirect_from:
   <img src="https://qianlou.github.io/files/lq.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
 -->
-* I am actively looking for a postdoc position.[[My Curriculum Vitae](http://qianlou.github.io/files/lq_cv.pdf)] 
-* My research interests lie in the general area of computer architecture, particularly in deep learning acceleration and privacy-preserving deep learning with homomorphic encryption.
+* I am on the job market for a postdoc position.[[My Curriculum Vitae](http://qianlou.github.io/files/lq_cv.pdf)] 
+* My research interests lie in computer architecture, deep learning acceleration and privacy-preserving deep learning based on homomorphic encryption and multy-party computation.
 * I am a Ph.D. candidate in the [Intelligent Systems Engineering Department](https://engineering.indiana.edu/) at [Indiana University Bloomington](https://www.indiana.edu/).
 * I received my Master’s Degree at [Intelligent Systems Engineering Department](https://engineering.indiana.edu/) at Indiana University.
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
