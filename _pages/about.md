@@ -13,8 +13,8 @@ redirect_from:
 </p>
 -->
 * I am on the job market for a postdoc position.[[My Curriculum Vitae](http://qianlou.github.io/files/lq_cv.pdf)] 
-* My research interests lie in computer architecture, deep learning acceleration and privacy-preserving deep learning based on homomorphic encryption and multy-party computation.
-* I am a Ph.D. candidate in the [Intelligent Systems Engineering Department](https://engineering.indiana.edu/) at [Indiana University Bloomington](https://www.indiana.edu/).
+* My research interests lie in computer architecture, deep learning acceleration and privacy-preserving deep learning based on homomorphic encryption and multi-party computation.
+* I am a Ph.D. candidate advised by [Dr. Lei Jiang](http://homes.sice.indiana.edu/jiang60/) at [Indiana University Bloomington](https://www.indiana.edu/).
 * I received my Master’s Degree at [Intelligent Systems Engineering Department](https://engineering.indiana.edu/) at Indiana University.
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
