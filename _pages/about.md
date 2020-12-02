@@ -50,4 +50,4 @@ My research interests include:
 * 2018/06  &nbsp; &nbsp;  [3DICT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764) is accepted by ICCAD 2018.
 * 2017/04  &nbsp; &nbsp;  [NV-FPGA](https://ieeexplore.ieee.org/document/8064477) is accepted by NVMSA 2017.
 
-<script size="2cm" type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=0sco_afb6dVBwoUaYvOYpq3TxollRIwN8700ZL1ejvc&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=eddfdf&w=200&t=n&d=0sco_afb6dVBwoUaYvOYpq3TxollRIwN8700ZL1ejvc&co=ffffff&cmo=ba8c8c&cmn=a6eda6&ct=808080"></script>

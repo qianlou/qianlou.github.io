@@ -24,8 +24,8 @@ author_profile: true
 
 <b>[Helix: Algorithm/Architecture Co-design for Accelerating Nanopore Genome Base-calling](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)</b> <br> 
 <b>Qian Lou</b>, Sarath Janga and Lei Jiang.
-<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i>. <b>PACT 2020</b>.<br />
- <span style="color:red">(Best paper nomination)</span> <span>[[pdf](https://dl.acm.org/doi/abs/10.1145/3410463.3414626), [bibtex](https://dblp.org/rec/conf/IEEEpact/LouJ020.html?view=bibtex), [slides]()]</span> 
+<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i>. <b>PACT 2020</b>.<span style="color:red">(Best paper nomination)</span> <br />
+<span>[[pdf](https://dl.acm.org/doi/abs/10.1145/3410463.3414626), [bibtex](https://dblp.org/rec/conf/IEEEpact/LouJ020.html?view=bibtex), [slides]()]</span> 
 
 <b>[AutoQ: Automated Kernel-Wise Neural Network Quantization](https://openreview.net/forum?id=rygfnn4twS)</b> <br> 
 <b>Qian Lou</b>, Feng Guo, Minje Kim, Lantao Liu, and Lei Jiang.
