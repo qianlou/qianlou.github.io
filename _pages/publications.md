@@ -35,7 +35,7 @@ author_profile: true
 <b>[LightBulb: A Photonic-Nonvolatile-Memory-based Accelerator for Binarized Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/9116494))</b> <br> 
 Farzaneh Zokaee, <b>Qian Lou</b>, Nathan Youngblood, Weichen Liu, Yiyuan Xie, Lei Jiang
 <i>2020 Design, Automation & Test in Europe Conference & Exhibition</i>. <b>DATE 2020</b>. <br />
-<span>[[pdf](https://ieeexplore.ieee.org/abstract/document/9116494)), [bibtex](https://dblp.org/rec/conf/date/ZokaeeLYLXJ20.html?view=bibtex)]</span>
+<span>[[pdf](https://ieeexplore.ieee.org/abstract/document/9116494), [bibtex](https://dblp.org/rec/conf/date/ZokaeeLYLXJ20.html?view=bibtex)]</span>
 
 <b>[SHE:A fast and accurate deep neural networks for encrypted data](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, and Lei Jiang.
