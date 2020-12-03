@@ -8,10 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center">
-  <img src="https://qianlou.github.io/files/lq.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
-</p>
-
 I am a Ph.D. candidate at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB. I completed my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/). 
 
 My research interests include: 
