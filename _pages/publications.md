@@ -24,13 +24,18 @@ author_profile: true
 
 <b>[Helix: Algorithm/Architecture Co-design for Accelerating Nanopore Genome Base-calling](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)</b> <br> 
 <b>Qian Lou</b>, Sarath Janga and Lei Jiang.
-<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i>. <b>PACT 2020</b>.<span style="color:red">(Best paper nomination)</span> <br />
+<i>IEEE/ACM International Conference on Parallel Architectures and Compilation Techniques</i>. <b>PACT 2020</b>. <span style="color:red">(Best paper nomination)</span> <br />
 <span>[[pdf](https://dl.acm.org/doi/abs/10.1145/3410463.3414626), [bibtex](https://dblp.org/rec/conf/IEEEpact/LouJ020.html?view=bibtex), [slides]()]</span> 
 
 <b>[AutoQ: Automated Kernel-Wise Neural Network Quantization](https://openreview.net/forum?id=rygfnn4twS)</b> <br> 
 <b>Qian Lou</b>, Feng Guo, Minje Kim, Lantao Liu, and Lei Jiang.
 <i>International Conference on Learning Representations</i>. <b>ICLR 2020</b>. <br />
 <span>[[pdf](https://openreview.net/pdf?id=rygfnn4twS), [bibtex](https://dblp.org/rec/conf/iclr/LouGKLJ20.html?view=bibtex)]</span> 
+
+<b>[LightBulb: A Photonic-Nonvolatile-Memory-based Accelerator for Binarized Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/9116494))</b> <br> 
+Farzaneh Zokaee, <b>Qian Lou</b>, Nathan Youngblood, Weichen Liu, Yiyuan Xie, Lei Jiang
+<i>2020 Design, Automation & Test in Europe Conference & Exhibition</i>. <b>DATE 2020</b>. <br />
+<span>[[pdf](https://ieeexplore.ieee.org/abstract/document/9116494)), [bibtex](https://dblp.org/rec/conf/date/ZokaeeLYLXJ20.html?view=bibtex)]</span>
 
 <b>[SHE:A fast and accurate deep neural networks for encrypted data](http://qianlou.github.io/publications/NeurIPS2019)</b> <br> 
 <b>Qian Lou</b>, and Lei Jiang.
