@@ -38,7 +38,7 @@ My research interests include:
 * 2020/07  &nbsp; &nbsp;    [Helix](https://dl.acm.org/doi/abs/10.1145/3410463.3414626) is accepted by PACT 2020 (**Best paper nomination**).
 * 2020/07  &nbsp; &nbsp;  Qian received a DAC young fellowship.
 * 2019/12  &nbsp; &nbsp; [AutoQ](https://openreview.net/forum?id=rygfnn4twS) is accepted by ICLR 2020.
-* 2019/11  &nbsp; &nbsp;  Collaborated workd [LightBulb](https://ieeexplore.ieee.org/abstract/document/9116494) is accepted by DATE 2020.
+* 2019/11  &nbsp; &nbsp;  Collaborated work [LightBulb](https://ieeexplore.ieee.org/abstract/document/9116494) is accepted by DATE 2020.
 * 2019/09 &nbsp; &nbsp; [SHE](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf) is accepted by NeurIPS 2019.
 * 2019/08 &nbsp; &nbsp; [MindReading](https://ieeexplore.ieee.org/abstract/document/9045333) is accepted by ASP-DAC 2020.
 * 2019/06 &nbsp; &nbsp; [SHE](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf) is accepted by ICML 2019 workshop.
