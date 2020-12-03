@@ -7,7 +7,7 @@ author_profile: true
 <!---<b>Check my full publication list on [dblp](https://dblp.org/pid/207/3962.html) and [google scholar](https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en).</b> <br> --->
 
 
-<b>[Falcon: Fast Spectral Inference on Encrypted data](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf)</b> <br> 
+<b>[Falcon: Fast Spectral Inference on Encrypted Data](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf)</b> <br> 
 <b>Qian Lou</b>, Wen-je Lu, Cheng Hong, and Lei Jiang.
 <i>The 34th Conference on Neural Information Processing Systems</i>. <b>NeurIPS 2020</b>. <br />
 <span>[[pdf](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [bibtex](), [poster](), [video]()]</span> 
