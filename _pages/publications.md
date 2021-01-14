@@ -10,7 +10,7 @@ author_profile: true
 <b>[SAFENet: A Secure, Accurate and Fast Neural Network Inference](https://openreview.net/forum?id=Cz3dbFm5u-)</b> <br> 
 <b>Qian Lou</b>, Yilin Shen, Hongxia Jin, and Lei Jiang.
 <i>International Conference on Learning Representations</i>. <b>ICLR 2021</b>. <br />
-<span>[[pdf](https://openreview.net/forum?id=Cz3dbFm5u-)</span> 
+<span>[[pdf](https://openreview.net/forum?id=Cz3dbFm5u-)]</span> 
 
 <b>[Falcon: Fast Spectral Inference on Encrypted Data](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf)</b> <br> 
 <b>Qian Lou</b>, Wen-je Lu, Cheng Hong, and Lei Jiang.
