@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB. I completed my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/). 
+I am a Ph.D. candidate at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). 
+At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), (NTU Professor Weichen Liu)[https://personal.ntu.edu.sg/liu/], and (KU Professor Song Bian)[https://sbian3.github.io/]. 
+As an intern, it's my hornor to collaborate with (Dr. Yilin Shen)[https://www.linkedin.com/in/yilin-shen-65a56622/] and (Dr. Hongxia Jin)[https://www.linkedin.com/in/hongxiajin/] at Samsung Research America AI center.
+I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB and my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/).
 
 My research interests include: 
 * Privacy-preserving machine learning [[NeurIPS'19](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf), [NeurIPS'20a](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html), [NeurIPS'20b](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf), [NeurIPS'20c](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [CCS PPMLP'20](http://sci-workshops.alipay.com/CCS2020), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-)].
@@ -25,7 +28,7 @@ My research interests include:
 
 # Committee Services
 * AAAI 2021 program committee
-* NeurIPS 2020 reviewer
+* NeurIPS 2020， NeurIPS 2021 reviewer
 * ICML 2020, ICML 2021 reviewer
 * ACM JETC reviewer 
 <!--* IEEE ASPDAC 2018 sub-reviewer-->
