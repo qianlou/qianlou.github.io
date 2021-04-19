@@ -9,8 +9,8 @@ redirect_from:
 ---
 
 I am a Ph.D. candidate at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). 
-At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), (NTU Professor Weichen Liu)[https://personal.ntu.edu.sg/liu/], and (KU Professor Song Bian)[https://sbian3.github.io/]. 
-As an intern, it's my hornor to collaborate with (Dr. Yilin Shen)[https://www.linkedin.com/in/yilin-shen-65a56622/] and (Dr. Hongxia Jin)[https://www.linkedin.com/in/hongxiajin/] at Samsung Research America AI center.
+At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
+As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
 I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB and my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/).
 
 My research interests include: 
