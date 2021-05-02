@@ -18,20 +18,11 @@ My research interests include:
 * On-Device machine learning [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), IJCAI'21].
 * AI systems for biohealth informatics [[ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)]. 
 
-
-
 <!--** I am a Ph.D. candidate advised by [Dr. Lei Jiang](http://homes.sice.indiana.edu/jiang60/) at [Indiana University Bloomington](https://www.indiana.edu/).
 * I received my Master’s Degree at [Intelligent Systems Engineering Department](https://engineering.indiana.edu/) at Indiana University.
 * I am on the academic job market.[[My Curriculum Vitae](http://qianlou.github.io/files/lq_cv.pdf)] 
 * My research interests lie in computer architecture, deep learning acceleration and privacy-preserving deep learning based on homomorphic encryption and multi-party computation.
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
-
-# Committee Services
-* AAAI 2021 program committee
-* NeurIPS 2020, NeurIPS 2021 reviewer
-* ICML 2020, ICML 2021 reviewer
-* ACM JETC reviewer 
-<!--* IEEE ASPDAC 2018 sub-reviewer-->
 
 # News
 * 2021/04 &nbsp; &nbsp;    AQ-BERT is accepted by IJCAI 2021. Thanks for the collaborators.
@@ -52,4 +43,11 @@ My research interests include:
 * 2018/06  &nbsp; &nbsp;   [3DICT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764) is accepted by ICCAD 2018.
 * 2017/04  &nbsp; &nbsp;   [NV-FPGA](https://ieeexplore.ieee.org/document/8064477) is accepted by NVMSA 2017.
 
+# Committee Services
+* AAAI 2021 program committee
+* NeurIPS 2020, NeurIPS 2021 reviewer
+* ICML 2020, ICML 2021 reviewer
+* ACM JETC reviewer 
+
+<!--* IEEE ASPDAC 2018 sub-reviewer-->
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=eddfdf&w=200&t=n&d=0sco_afb6dVBwoUaYvOYpq3TxollRIwN8700ZL1ejvc&co=ffffff&cmo=ba8c8c&cmn=a6eda6&ct=808080"></script>
