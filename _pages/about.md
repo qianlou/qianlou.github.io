@@ -25,6 +25,7 @@ My research interests include:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
+* 2021/05 &nbsp; &nbsp;    HEMET is accepted by ICML 2021.
 * 2021/05 &nbsp; &nbsp;    Qian received a Luddy Outstanding Research Award. 
 * 2021/04 &nbsp; &nbsp;    AQ-BERT is accepted by IJCAI 2021. Thanks for the collaborators.
 * 2021/01 &nbsp; &nbsp;    [SAFENet](https://openreview.net/forum?id=Cz3dbFm5u-) is accepted by ICLR 2021.
