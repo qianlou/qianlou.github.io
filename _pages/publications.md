@@ -6,6 +6,16 @@ author_profile: true
 <br>
 <!---<b>Check my full publication list on [dblp](https://dblp.org/pid/207/3962.html) and [google scholar](https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en).</b> <br> --->
 
+<b>[HEMET: A Homomorphic-Encryption-Friendly Privacy-Preserving Mobile
+Neural Network Architecture](https://ijcai-21.org/)</b> <br> 
+<b> Qian Lou</b>, and Lei Jiang.
+<i>International Conference on Machine Learning </i>. <b>ICML 2021</b>. <br />
+
+
+<b>[AQ-BERT: Automatic Mixed-Precision Quantization Search of BERT](https://ijcai-21.org/)</b> <br> 
+Changshen Zhao, Ting Hua, Yilin Shen, <b> Qian Lou</b>, and Hongxia Jin.
+<i>International Joint Conference on Artificial Intelligence </i>. <b>IJCAI 2021</b>. <br />
+
 
 <b>[SAFENet: A Secure, Accurate and Fast Neural Network Inference](https://openreview.net/forum?id=Cz3dbFm5u-)</b> <br> 
 <b>Qian Lou</b>, Yilin Shen, Hongxia Jin, and Lei Jiang.
