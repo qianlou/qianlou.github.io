@@ -10,7 +10,7 @@ author_profile: true
 Neural Network Architecture](https://icml.cc/)</b> <br> 
 <b> Qian Lou</b>, and Lei Jiang.
 <i>The 38th International Conference on Machine Learning</i>. <b>ICML 2021</b>. <br />
-<span>[[pdf](https://icml.cc/]</span> 
+<span>[[pdf](https://icml.cc/)]</span> 
 
 <b>[AQ-BERT: Automatic Mixed-Precision Quantization Search of BERT](https://ijcai-21.org/)</b> <br> 
 Changshen Zhao, Ting Hua, Yilin Shen, <b> Qian Lou</b>, and Hongxia Jin.
