@@ -8,14 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). 
-At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
+I am a Ph.D. candidate at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), and my defense will be hold on July 7th in 2021.
+<!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
+<!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
-I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB and my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/).
-
+-->
+<!--I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB and my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/).
+-->
 My research interests include: 
 * Privacy-preserving machine learning [[NeurIPS'19](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf), [NeurIPS'20a](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html), [NeurIPS'20b](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf), [NeurIPS'20c](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [CCS PPMLP'20](http://sci-workshops.alipay.com/CCS2020), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [ICML'21](https://arxiv.org/pdf/2106.00038.pdf)].
-* On-Device machine learning [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), IJCAI'21].
+* On-device machine learning [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), IJCAI'21].
 * AI systems for biohealth informatics [[ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)]. 
 
 <!--** I am a Ph.D. candidate advised by [Dr. Lei Jiang](http://homes.sice.indiana.edu/jiang60/) at [Indiana University Bloomington](https://www.indiana.edu/).
@@ -49,6 +51,7 @@ My research interests include:
 * AAAI 2021 program committee
 * NeurIPS 2020, NeurIPS 2021 reviewer
 * ICML 2020, ICML 2021 reviewer
+* ICLR 2022 reviewer
 * ACM JETC reviewer 
 
 <!--* IEEE ASPDAC 2018 sub-reviewer-->
