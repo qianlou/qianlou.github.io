@@ -7,18 +7,19 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-I am a Ph.D. candidate at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) advised by Prof. [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). Prior to IUB, I obtained my M.S. and B.S. degree from the Intelligent Systems Engineering Department at IUB in 2019 and Shandong University in 2017, resepctively. 
+Qian Lou is a senior research scientist at Samsung Research AI center. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning, e.g., Fully Homomorphic Encryption and Multi-Party Computation. He obtained his M.S./Ph.D. degree from Intelligen Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), and B.S. degree at Shandong University in 2017, resepctively. 
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
 <!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
 -->
 <!--I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB and my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/).
 -->
-My research interests include: 
-* Privacy-preserving cloud machine learning [[NeurIPS'19](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf), [NeurIPS'20a](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html), [NeurIPS'20b](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf), [NeurIPS'20c](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [CCS PPMLP'20](http://sci-workshops.alipay.com/CCS2020), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [ICML'21](https://arxiv.org/pdf/2106.00038.pdf)].
-* On-device local machine learning [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), IJCAI'21].
-* AI systems for biohealth informatics [[ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)]. 
+His research interests include: 
+* Privacy-Preserving Machine Learning [[NeurIPS'19](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf), [NeurIPS'20a](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html), [NeurIPS'20b](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf), [NeurIPS'20c](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [CCS PPMLP'20](http://sci-workshops.alipay.com/CCS2020), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [ICML'21](https://arxiv.org/pdf/2106.00038.pdf)].
+* Machine Learning [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), IJCAI'21, [ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)].
+
+<!--* AI systems for biohealth informatics [[ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)]. 
+-->
 
 <!--** I am a Ph.D. candidate advised by [Dr. Lei Jiang](http://homes.sice.indiana.edu/jiang60/) at [Indiana University Bloomington](https://www.indiana.edu/).
 * I received my Master’s Degree at [Intelligent Systems Engineering Department](https://engineering.indiana.edu/) at Indiana University.
@@ -28,7 +29,7 @@ My research interests include:
 
 # News
 * 2021/05 &nbsp; &nbsp;    [HEMET](https://arxiv.org/pdf/2106.00038.pdf) is accepted by ICML 2021.
-* 2021/05 &nbsp; &nbsp;    I received a Luddy Outstanding Research Award. 
+* 2021/05 &nbsp; &nbsp;    Qian received a Luddy Outstanding Research Award. 
 * 2021/04 &nbsp; &nbsp;    AQ-BERT is accepted by IJCAI 2021. Thanks for the collaborators.
 * 2021/01 &nbsp; &nbsp;    [SAFENet](https://openreview.net/forum?id=Cz3dbFm5u-) is accepted by ICLR 2021.
 * 2020/09 &nbsp; &nbsp;    [Falcon](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf) is accepted by NeurIPS 2020.
@@ -36,7 +37,7 @@ My research interests include:
 * 2020/09 &nbsp; &nbsp;    [Glyph](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html) is accepted by NeurIPS 2020.
 * 2020/09 &nbsp; &nbsp;    [HERB](http://sci-workshops.alipay.com/CCS2020) is accepted by CCS 2020 PPMLP.
 * 2020/07  &nbsp; &nbsp;   [Helix](https://dl.acm.org/doi/abs/10.1145/3410463.3414626) is accepted by PACT 2020 (**Best paper nomination**).
-* 2020/07  &nbsp; &nbsp;   I received a DAC young fellowship.
+* 2020/07  &nbsp; &nbsp;   Qian received a DAC young fellowship.
 * 2019/12  &nbsp; &nbsp;   [AutoQ](https://openreview.net/forum?id=rygfnn4twS) is accepted by ICLR 2020.
 * 2019/11  &nbsp; &nbsp;   Collaborated work [LightBulb](https://ieeexplore.ieee.org/abstract/document/9116494) is accepted by DATE 2020.
 * 2019/09 &nbsp; &nbsp;    [SHE](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf) is accepted by NeurIPS 2019.
