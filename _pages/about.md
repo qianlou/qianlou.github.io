@@ -1,20 +1,20 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Biography"
+excerpt: "Biography"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-Qian Lou is a senior research scientist at Samsung Research AI center. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning, e.g., Fully Homomorphic Encryption and Multi-Party Computation. He obtained his M.S./Ph.D. degree from Intelligen Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/), and B.S. degree at Shandong University in 2017, resepctively. 
+Qian Lou is a senior research scientist at Samsung Research AI center. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning, e.g., Fully Homomorphic Encryption and Multi-Party Computation. He obtained his Ph.D. degree from Intelligen Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2021 and B.S. degree at Shandong University in 2017, resepctively. 
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
 <!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
 -->
 <!--I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB and my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/).
 -->
-His research interests include: 
+His research interests: 
 * Privacy-Preserving Machine Learning [[NeurIPS'19](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf), [NeurIPS'20a](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html), [NeurIPS'20b](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf), [NeurIPS'20c](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [CCS PPMLP'20](http://sci-workshops.alipay.com/CCS2020), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [ICML'21](https://arxiv.org/pdf/2106.00038.pdf)].
 * Machine Learning [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), IJCAI'21, [ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)].
 
