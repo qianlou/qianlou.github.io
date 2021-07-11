@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Qian Lou"
 title_separator          : "-"
 name                     : &name "Qian Lou"
-description              : &description "Ph.D. Candidate, Indiana University Bloomington"
+description              : &description "Senior Researcher, Samsung Research AI center"
 url                      : https://qianlou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "qianlou/qianlou.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &qianlife22
 facebook:
   username               :
   app_id                 :
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Qian Lou"
   avatar           : "lq.jpg"
-  bio              : "Ph.D. Candidate, Indiana University Bloomington"
-  location         : "Bloomington, Indiana"
+  bio              : "Senior Researcher, Samsung Research AI center"
+  location         : "Mountain View, California"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en"
-  email            : "louqian@iu.edu"
+  email            : "louqian95@gmail.edu"
   uri              :
   bitbucket        :
   codepen          :
