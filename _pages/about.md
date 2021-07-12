@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Qian Lou is a senior research scientist at Samsung Research AI center. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning, e.g., Fully Homomorphic Encryption and Multi-Party Computation. He obtained his Ph.D. degree from Intelligen Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2021 and B.S. degree at Shandong University in 2017, resepctively. 
+Qian Lou is a senior research scientist at Samsung Research AI center. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning, e.g., Fully Homomorphic Encryption and Multi-Party Computation. He obtained his Ph.D. degree from Intelligent Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2021 and B.S. degree at Shandong University in 2017, resepctively. 
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
 <!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
