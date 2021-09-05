@@ -28,7 +28,7 @@ His research interests:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
-* 2021/08 &nbsp; &nbsp;    [CryptoGRU](https://arxiv.org/pdf/2106.00038.pdf) under Qian's supervision is accepted by EMNLP 2021.
+* 2021/08 &nbsp; &nbsp;    [CryptoGRU](https://arxiv.org/abs/2010.11796) under Qian's supervision is accepted by EMNLP 2021.
 * 2021/05 &nbsp; &nbsp;    [HEMET](https://arxiv.org/pdf/2106.00038.pdf) is accepted by ICML 2021.
 * 2021/05 &nbsp; &nbsp;    Qian received a Luddy Outstanding Research Award. 
 * 2021/04 &nbsp; &nbsp;    [AQ-BERT](https://www.ijcai.org/proceedings/2021/0472.pdf) is accepted by IJCAI 2021. Thanks for the collaborators.
