@@ -28,6 +28,7 @@ His research outcomes:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
+* 2021/11 &nbsp; &nbsp;     A collaborated work, CoxHE, is accepted by DATE 2022. It is a software hardware co-design framework for HE. 
 * 2021/08 &nbsp; &nbsp;    [CryptoGRU](https://arxiv.org/abs/2010.11796) under Qian's supervision is accepted by EMNLP 2021.
 * 2021/05 &nbsp; &nbsp;    [HEMET](https://arxiv.org/pdf/2106.00038.pdf) is accepted by ICML 2021.
 * 2021/05 &nbsp; &nbsp;    Qian received a Luddy Outstanding Research Award. 
@@ -50,6 +51,7 @@ His research outcomes:
 * 2017/04  &nbsp; &nbsp;   [NV-FPGA](https://ieeexplore.ieee.org/document/8064477) is accepted by NVMSA 2017.
 
 # Committee Services (Contact me! Be glad to serve more)
+* CVPR 2022 reviewer
 * AAAI 2021, AAAI 2022 program committee
 * NeurIPS 2020, NeurIPS 2021 reviewer
 * ICML 2020, ICML 2021 reviewer
