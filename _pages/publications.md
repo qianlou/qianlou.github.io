@@ -6,6 +6,12 @@ author_profile: true
 <br>
 <!---<b>Check my full publication list on [dblp](https://dblp.org/pid/207/3962.html) and [google scholar](https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en).</b> <br> --->
 
+<b>[coxHE: A software hardware co-design framework for FPGA acceleration of homomorphic computation](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf)</b> <br> 
+Mingqin Han, Yilan Zhu, <b> Qian Lou </b>, Zimeng Zhou, Shanqing Guo, Lei Ju
+<i>Design, Automation and Test in Europe Conference</i>. <b>DATE 2022</b>. <br />
+<span>[[pdf](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf)]</span>
+
+
 <b>[CryptoGRU: Low Latency Privacy-Preserving Text Analysis With GRU](https://arxiv.org/abs/2010.11796)</b> <br> 
 Bo Feng, <b> Qian Lou </b>, Lei Jiang, Geoffrey C. Fox
 <i>The 2021 Conference on Empirical Methods in Natural Language Processing</i>. <b>EMNLP 2021</b>. <br />

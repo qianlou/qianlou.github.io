@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Qian Lou is a senior research scientist at Samsung Research AI center. He obtained his Ph.D. degree from Intelligent Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2021 and B.S. degree at Shandong University in 2017, respectively. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning, e.g., Fully Homomorphic Encryption and Multi-Party Computation. 
+Qian Lou is a senior research scientist at Samsung Research AI center since 2021 June. Prior to that, he obtained his Ph.D. degree from Intelligent Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2021 and B.S. degree at Shandong University in 2017, respectively. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on applied cryptography, e.g., Fully Homomorphic Encryption and Multi-Party Computation. 
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
 <!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
@@ -15,8 +15,8 @@ As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.li
 <!--I completed my M.S. in the department of [Intelligent Systems Engineering](https://engineering.indiana.edu/) at IUB and my B.S. degree from a special pilot class in the department of Computer Science at [Shandong University](http://www.cs.en.qd.sdu.edu.cn/).
 -->
 His research outcomes: 
-* Privacy-Preserving Machine Learning [[NeurIPS'19](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf), [NeurIPS'20a](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html), [NeurIPS'20b](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf), [NeurIPS'20c](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [CCS PPMLP'20](http://sci-workshops.alipay.com/CCS2020), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [ICML'21](https://arxiv.org/pdf/2106.00038.pdf), [EMNLP'21](https://arxiv.org/abs/2010.11796)].
-* Machine Learning [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [IJCAI'21](https://www.ijcai.org/proceedings/2021/0472.pdf), [ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)].
+* Privacy-Preserving Machine Learning based on Applied Cryptography [[NeurIPS'19](https://papers.nips.cc/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf), [NeurIPS'20a](https://proceedings.neurips.cc/paper/2020/hash/685ac8cadc1be5ac98da9556bc1c8d9e-Abstract.html), [NeurIPS'20b](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf), [NeurIPS'20c](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf), [CCS PPMLP'20](http://sci-workshops.alipay.com/CCS2020), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [ICML'21](https://arxiv.org/pdf/2106.00038.pdf), [EMNLP'21](https://arxiv.org/abs/2010.11796), [DATE'22](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf)].
+* Machine Learning Model Compression and Hardware Acceleration [[CAL'18](https://www.computer.org/csdl/journal/ca/2018/02/08540899/17D45VObpO9), [ICCAD'18](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764), [DATE'19](https://ieeexplore.ieee.org/abstract/document/8715195), [DATE'20](https://ieeexplore.ieee.org/abstract/document/9116494), [ICLR'20](https://openreview.net/forum?id=rygfnn4twS), [ICLR'21](https://openreview.net/forum?id=Cz3dbFm5u-), [IJCAI'21](https://www.ijcai.org/proceedings/2021/0472.pdf), [ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)].
 
 <!--* AI systems for biohealth informatics [[ASP-DAC'20](https://ieeexplore.ieee.org/abstract/document/9045333), [PACT'20 best paper nomination](https://dl.acm.org/doi/abs/10.1145/3410463.3414626)]. 
 -->
@@ -28,10 +28,10 @@ His research outcomes:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
-* 2021/11 &nbsp; &nbsp;     A collaborated work, CoxHE, is accepted by DATE 2022. It is a software hardware co-design framework for HE. 
-* 2021/08 &nbsp; &nbsp;    [CryptoGRU](https://arxiv.org/abs/2010.11796) under Qian's supervision is accepted by EMNLP 2021.
+* 2021/11 &nbsp; &nbsp;    [coxHE](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf), is accepted by DATE 2022. It is a software hardware co-design framework for HE. 
+* 2021/08 &nbsp; &nbsp;    [CryptoGRU](https://arxiv.org/abs/2010.11796)is accepted by EMNLP 2021.
 * 2021/05 &nbsp; &nbsp;    [HEMET](https://arxiv.org/pdf/2106.00038.pdf) is accepted by ICML 2021.
-* 2021/05 &nbsp; &nbsp;    Qian received a Luddy Outstanding Research Award. 
+* 2021/05 &nbsp; &nbsp;     Qian received a Luddy Outstanding Research Award. 
 * 2021/04 &nbsp; &nbsp;    [AQ-BERT](https://www.ijcai.org/proceedings/2021/0472.pdf) is accepted by IJCAI 2021. Thanks for the collaborators.
 * 2021/01 &nbsp; &nbsp;    [SAFENet](https://openreview.net/forum?id=Cz3dbFm5u-) is accepted by ICLR 2021.
 * 2020/09 &nbsp; &nbsp;    [Falcon](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf) is accepted by NeurIPS 2020.
