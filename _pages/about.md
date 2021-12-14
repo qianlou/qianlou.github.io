@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Qian Lou is a senior research scientist at Samsung Research AI center since 2021 June. Prior to that, he obtained his Ph.D. degree from Intelligent Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2021 and B.S. degree at Shandong University in 2017, respectively. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on applied cryptography, e.g., Fully Homomorphic Encryption and Multi-Party Computation. 
+Qian Lou is a senior research scientist at Samsung Research AI center since 2021. Prior to that, he obtained his M.S. and Ph.D. degrees from Intelligent Systems Engineering department at [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2019 and 2021, respectively. His research interests include machine learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on applied cryptography, e.g., Fully Homomorphic Encryption and Multi-Party Computation. Qian is also a member of IEEE/ACM.
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
 <!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
@@ -50,7 +50,7 @@ His research outcomes:
 * 2018/06  &nbsp; &nbsp;   [3DICT](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8587764) is accepted by ICCAD 2018.
 * 2017/04  &nbsp; &nbsp;   [NV-FPGA](https://ieeexplore.ieee.org/document/8064477) is accepted by NVMSA 2017.
 
-# Committee Services (Contact me! Be glad to serve more)
+# Committee Services
 * CVPR 2022 reviewer
 * AAAI 2021, AAAI 2022 program committee
 * NeurIPS 2020, NeurIPS 2021 reviewer
