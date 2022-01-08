@@ -28,11 +28,12 @@ His research outcomes:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
+* 2021/12 &nbsp; &nbsp;    [SAFENet](https://openreview.net/forum?id=Cz3dbFm5u-) won the Samsung Research America Q4 best paper award. 
 * 2021/11 &nbsp; &nbsp;    [coxHE](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf) is accepted by DATE 2022. It is a software hardware co-design framework for HE. 
 * 2021/08 &nbsp; &nbsp;    [CryptoGRU](https://arxiv.org/abs/2010.11796) is accepted by EMNLP 2021.
 * 2021/05 &nbsp; &nbsp;    [HEMET](https://arxiv.org/pdf/2106.00038.pdf) is accepted by ICML 2021.
 * 2021/05 &nbsp; &nbsp;     Qian received a Luddy Outstanding Research Award. 
-* 2021/04 &nbsp; &nbsp;    [AQ-BERT](https://www.ijcai.org/proceedings/2021/0472.pdf) is accepted by IJCAI 2021. Thanks for the collaborators.
+* 2021/04 &nbsp; &nbsp;    [AQ-BERT](https://www.ijcai.org/proceedings/2021/0472.pdf) is accepted by IJCAI 2021.
 * 2021/01 &nbsp; &nbsp;    [SAFENet](https://openreview.net/forum?id=Cz3dbFm5u-) is accepted by ICLR 2021.
 * 2020/09 &nbsp; &nbsp;    [Falcon](https://papers.nips.cc/paper/2020/file/18fc72d8b8aba03a4d84f66efabce82e-Paper.pdf) is accepted by NeurIPS 2020.
 * 2020/09 &nbsp; &nbsp;    [AutoPrivacy](https://papers.nips.cc/paper/2020/file/6244b2ba957c48bc64582cf2bcec3d04-Paper.pdf) is accepted by NeurIPS 2020.
