@@ -28,7 +28,7 @@ His research outcomes:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
-* 2022/01 &nbsp; &nbsp;    [Lanuguage Model Compression](https://openreview.net/forum?id=uPv9Y3gmAI5) is accepted by ICLR 2022.
+* 2022/01 &nbsp; &nbsp;    [Language Model Compression](https://openreview.net/forum?id=uPv9Y3gmAI5) is accepted by ICLR 2022.
 * 2022/01 &nbsp; &nbsp;    [DictFormer](https://openreview.net/forum?id=GWQWAeE9EpB) is accepted by ICLR 2022.
 * 2021/12 &nbsp; &nbsp;    [SAFENet](https://openreview.net/forum?id=Cz3dbFm5u-) won the Samsung Research America Q4 best paper award. 
 * 2021/11 &nbsp; &nbsp;    [coxHE](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf) is accepted by DATE 2022. It is a software hardware co-design framework for HE. 

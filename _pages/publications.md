@@ -15,7 +15,7 @@ author_profile: true
 <b>[Language model compression with weighted low-rank factorization](https://openreview.net/forum?id=uPv9Y3gmAI5)</b> <br> 
 Yen-Chang Hsu, Ting Hua, Sungen Chang, <b>Qian Lou</b>, Yilin Shen, and Hongxia Jin.
 <i>The 10th International Conference on Learning Representations</i>. <b>ICLR 2022</b>. <br />
-<span>[[pdf](https://openreview.net/forum?id=uPv9Y3gmAI5]</span> 
+<span>[[pdf](https://openreview.net/forum?id=uPv9Y3gmAI5)]</span> 
 
 <b>[coxHE: A software hardware co-design framework for FPGA acceleration of homomorphic computation](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf)</b> <br> 
 Mingqin Han, Yilan Zhu, <b> Qian Lou </b>, Zimeng Zhou, Shanqing Guo, Lei Ju
