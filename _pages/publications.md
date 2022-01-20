@@ -6,6 +6,17 @@ author_profile: true
 <br>
 <!---<b>Check my full publication list on [dblp](https://dblp.org/pid/207/3962.html) and [google scholar](https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en).</b> <br> --->
 
+
+<b>[DictFormer: Tiny Transformer with Shared Dictionary](https://openreview.net/forum?id=GWQWAeE9EpB)</b> <br> 
+<b>Qian Lou</b>, Ting Hua, Yen-Chang Hsu, Yilin Shen, and Hongxia Jin.
+<i>The 10th International Conference on Learning Representations</i>. <b>ICLR 2022</b>. <br />
+<span>[[pdf](https://openreview.net/forum?id=GWQWAeE9EpB)]</span> 
+
+<b>[Language model compression with weighted low-rank factorization](https://openreview.net/forum?id=uPv9Y3gmAI5)</b> <br> 
+Yen-Chang Hsu, Ting Hua, Sungen Chang, <b>Qian Lou</b>, Yilin Shen, and Hongxia Jin.
+<i>The 10th International Conference on Learning Representations</i>. <b>ICLR 2022</b>. <br />
+<span>[[pdf](https://openreview.net/forum?id=uPv9Y3gmAI5]</span> 
+
 <b>[coxHE: A software hardware co-design framework for FPGA acceleration of homomorphic computation](https://github.com/paper-link/unpublished-paper/blob/main/DATE2022-coxHE.pdf)</b> <br> 
 Mingqin Han, Yilan Zhu, <b> Qian Lou </b>, Zimeng Zhou, Shanqing Guo, Lei Ju
 <i>Design, Automation and Test in Europe Conference</i>. <b>DATE 2022</b>. <br />
