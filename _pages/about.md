@@ -54,7 +54,8 @@ His research outcomes:
 * 2017/04  &nbsp; &nbsp;   [NV-FPGA](https://ieeexplore.ieee.org/document/8064477) is accepted by NVMSA 2017.
 
 # Committee Services
-* [FHE.org conference organization committee](https://fhe.org/conference/fhe-org-conference-2022-committees)
+* [FHE.org conference organizing committee](https://fhe.org/conference/fhe-org-conference-2022-committees)
+* [ACM GLSVLSI TPC member](http://www.glsvlsi.org/)
 * CVPR 2022 reviewer
 * AAAI 2021, AAAI 2022 program committee
 * NeurIPS 2020, NeurIPS 2021 reviewer
