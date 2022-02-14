@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Qian Lou is a senior research scientist at Samsung Research AI center since 2021. Qian won the Samsung Research America Q4 best paper award. Prior to that, he obtained his M.S. and Ph.D. degrees from [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2019 and 2021, respectively. Qian won Luddy outstanding research award and best paper nomination at prestigious ACM [PACT](https://dl.acm.org/conference/pact) conference. His research interests include deep learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on applied cryptography, e.g., Fully Homomorphic Encryption and Multi-Party Computation. Qian is also a member of IEEE/ACM.
+Qian Lou is a senior research scientist at Samsung Research AI center since 2021. Qian won the Samsung Research America Q4 best paper award. Prior to that, he obtained his M.S. and Ph.D. degrees from [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2019 and 2021, respectively. Qian won Luddy outstanding research award and best paper nomination at the prestigious ACM [PACT](https://dl.acm.org/conference/pact) conference. His research interests include deep learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on applied cryptography, e.g., Fully Homomorphic Encryption and Multi-Party Computation. Qian is also a member of IEEE/ACM.
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
 <!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
@@ -56,10 +56,10 @@ His research outcomes:
 # Conference Program Committee Services
 * [FHE.org conference organization committee](https://fhe.org/conference/fhe-org-conference-2022-committees)
 * [ACM Great Lakes Symposium on VLSI TPC member](http://www.glsvlsi.org/)
-* Conference on Computer Vision and Pattern Recognition reviewer
-* The Association for the Advancement of Artificial Intelligence Program Committee Member
-* Conference on Neural Information Processing Systems (NeurIPS)Reviewer
-* International Conference on Machine Learning (ICML)Reviewer
+* Conference on Computer Vision and Pattern Recognition (CVPR) Reviewer
+* The Association for the Advancement of Artificial Intelligence (AAAI) Program Committee Member
+* Conference on Neural Information Processing Systems (NeurIPS) Reviewer
+* International Conference on Machine Learning (ICML) Reviewer
 * International Conference on Learning Representations (ICLR) Reviewer
 
 # Journal Review Services
