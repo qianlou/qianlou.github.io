@@ -7,6 +7,12 @@ author_profile: true
 <!---<b>Check my full publication list on [dblp](https://dblp.org/pid/207/3962.html) and [google scholar](https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en).</b> <br> --->
 
 
+
+<b>[MATCHA: A Fast and Energy-Efficient Accelerator for Fully Homomorphic Encryption over the Torus](https://arxiv.org/abs/2202.08814)</b> <br> 
+Lei Jiang, <b> Qian Lou </b>, Nrushad Joshi
+<i>The 59th Design Automation Conference</i>. <b>DAC 2022</b>. <br />
+<span>[[pdf](https://arxiv.org/abs/2202.08814)]</span>
+
 <b>[DictFormer: Tiny Transformer with Shared Dictionary](https://openreview.net/forum?id=GWQWAeE9EpB)</b> <br> 
 <b>Qian Lou</b>, Ting Hua, Yen-Chang Hsu, Yilin Shen, and Hongxia Jin.
 <i>The 10th International Conference on Learning Representations</i>. <b>ICLR 2022</b>. <br />

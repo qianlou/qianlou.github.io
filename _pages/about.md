@@ -28,6 +28,7 @@ His research outcomes:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
+* 2022/02 &nbsp; &nbsp;    [MATCHA](https://arxiv.org/abs/2202.08814) is accepted by DAC 2022.
 * 2022/01 &nbsp; &nbsp;    [Language Model Compression](https://openreview.net/forum?id=uPv9Y3gmAI5) is accepted by ICLR 2022.
 * 2022/01 &nbsp; &nbsp;    [DictFormer](https://openreview.net/forum?id=GWQWAeE9EpB) is accepted by ICLR 2022.
 * 2021/12 &nbsp; &nbsp;    [SAFENet](https://openreview.net/forum?id=Cz3dbFm5u-) won the Samsung Research America Q4 best paper award. 
