@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Qian Lou is a senior research scientist at Samsung Research AI center since 2021. Qian won the Samsung Research America Q4 best paper award. Prior to that, he obtained his M.S. and Ph.D. degrees from [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2019 and 2021, respectively. Qian won Luddy outstanding research award and best paper nomination at the prestigious ACM [PACT](https://dl.acm.org/conference/pact) conference. His research interests include deep learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on applied cryptography, e.g., Fully Homomorphic Encryption and Multi-Party Computation. Qian is also a member of IEEE/ACM.
+Qian Lou is a senior research scientist at Samsung Research AI center since 2021. Qian won the Samsung Research America Q4 best paper award. Prior to that, he obtained his M.S. and Ph.D. degrees from [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2019 and 2021, respectively. Qian won Luddy outstanding research award and best paper nomination at the prestigious ACM [PACT](https://dl.acm.org/conference/pact) conference. His research interests include deep learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on private computing primitives, e.g., Fully Homomorphic Encryption and Multi-Party Computation. Qian is also a member of IEEE/ACM.
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->
 <!--At IUB, I am also fortunate to work with [Professor Geoffrey C. Fox](https://luddy.indiana.edu/contact/profile/?profile_id=203), [Professor Minje Kim](https://saige.sice.indiana.edu/), [NTU Professor Weichen Liu](https://personal.ntu.edu.sg/liu/), and [KU Professor Song Bian](https://sbian3.github.io/). 
 As an intern, it's my hornor to collaborate with [Dr. Yilin Shen](https://www.linkedin.com/in/yilin-shen-65a56622/) and [Dr. Hongxia Jin](https://www.linkedin.com/in/hongxiajin/) at Samsung Research America AI center.
@@ -28,6 +28,7 @@ His research outcomes:
 <!--* I received my Bachelor’s Degree at [Computer Science department](http://www.cs.en.qd.sdu.edu.cn/) at Shandong University. -->
 
 # News
+* 2022/03 &nbsp; &nbsp;    LiteMDETR is accepted by CVPR 2022.
 * 2022/02 &nbsp; &nbsp;    [MATCHA](https://arxiv.org/abs/2202.08814) is accepted by DAC 2022.
 * 2022/01 &nbsp; &nbsp;    [Language Model Compression](https://openreview.net/forum?id=uPv9Y3gmAI5) is accepted by ICLR 2022.
 * 2022/01 &nbsp; &nbsp;    [DictFormer](https://openreview.net/forum?id=GWQWAeE9EpB) is accepted by ICLR 2022.
@@ -62,6 +63,7 @@ His research outcomes:
 * Conference on Neural Information Processing Systems (NeurIPS) Reviewer
 * International Conference on Machine Learning (ICML) Reviewer
 * International Conference on Learning Representations (ICLR) Reviewer
+* European Conference on Computer Vision (ECCV) Reviewer
 
 # Journal Review Services
 * Transactions on Machine Learning Research (TMLR)

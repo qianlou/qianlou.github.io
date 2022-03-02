@@ -7,6 +7,10 @@ author_profile: true
 <!---<b>Check my full publication list on [dblp](https://dblp.org/pid/207/3962.html) and [google scholar](https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en).</b> <br> --->
 
 
+<b>Lite-MDETR: A Lightweight Multi-Modal Detector </b> <br> 
+<b>Qian Lou</b>, Yen-Chang Hsu, Burak Uzkent, Ting Hua, Yilin Shen, and Hongxia Jin.
+<i>The 2022 Conference on Computer Vision and Pattern Recognition</i>. <b>CVPR 2022</b>. <br />
+
 
 <b>[MATCHA: A Fast and Energy-Efficient Accelerator for Fully Homomorphic Encryption over the Torus](https://arxiv.org/abs/2202.08814)</b> <br> 
 Lei Jiang, <b> Qian Lou </b>, Nrushad Joshi
