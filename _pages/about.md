@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-My [new homepage](https://qlou.org)
+My [new homepage](https://qlou.org).
 
 Qian Lou is an assistant professor at University of Central Florida. Before that, he was a senior research scientist at Samsung Research AI center. He obtained his M.S. and Ph.D. degrees from [Indiana University Bloomington (IUB)](https://www.indiana.edu/) in 2019 and 2021, respectively. Qian won Luddy outstanding research award and best paper nomination at the prestigious ACM [PACT](https://dl.acm.org/conference/pact) conference. His research interests include deep learning, e.g., CV and NLP model compression, and privacy-preserving machine learning based on private computing primitives, e.g., Fully Homomorphic Encryption and Multi-Party Computation. Qian is also a member of IEEE/ACM.
 <!--under the supervision of professor [Lei Jiang](http://homes.sice.indiana.edu/jiang60/). -->

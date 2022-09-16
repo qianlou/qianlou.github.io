@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Qian Lou"
 title_separator          : "-"
 name                     : &name "Qian Lou"
-description              : &description "Senior Researcher, Samsung Research AI center"
+description              : &description "Assistant Professor, University of Central Florida"
 url                      : https://qianlou.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "qianlou/qianlou.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Qian Lou"
   avatar           : "lq.jpg"
-  bio              : "Senior Researcher, Samsung Research AI center"
-  location         : "Mountain View, California"
+  bio              : "Assistant Professor, University of Central Florida"
+  location         : "Orlando, Florida"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=SBYgXLoAAAAJ&hl=en"
-  email            : "louqian95@gmail.edu"
+  email            : "louqian95@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
