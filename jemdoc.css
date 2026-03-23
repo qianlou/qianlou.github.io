@@ -376,6 +376,10 @@ table + table {
     margin-top: 1em;
 }
 
+table.pubentry + table.pubentry {
+    margin-top: 0.28em;
+}
+
 tr.heading {
     font-weight: bold;
     border-bottom: 2px solid black;
@@ -388,6 +392,17 @@ img {
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+    padding: 0;
+}
+
+table.imgtable {
+    margin-bottom: 0.05em;
+}
+
+table.imgtable p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.08;
 }
 
 #Highlights td.c1{
@@ -594,4 +609,18 @@ table.imgtable, table.imgtable td {
 
 #news th, td {
    border: 0px;
+}
+
+.news-scroll {
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: block;
+  padding-right: 8px;
+  margin-bottom: 0.8em;
+  border: 1px solid #dddddd;
+}
+
+.news-scroll table {
+  width: 100%;
 }

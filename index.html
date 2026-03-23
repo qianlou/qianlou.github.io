@@ -27,53 +27,82 @@ try {
 <table class="imgtable"><tr><td>
 <img src="images/lq.jpg" alt="Qian Lou" width="250px" />&nbsp;</td>
 <td align="left"><p>
-<b>Director of A&sup3; Lab at UCF and Assistant Professor</b> <br />
-<a href="https://www.cs.ucf.edu/">Computer Science</a>, <a href="https://www.ucf.edu/">University of Central Florida</a> <br />
-<b>Email: </b><a href="mailto:qian.lou@ucf.edu"> qian.lou@ucf.edu</a>,
-<b>Office: </b><a href="https://www.ucf.edu/location/health-sciences-ii/"> HS2 234</a>
+Assistant Professor <br />
+Computer Science <br />
+University of Central Florida <br />
+Health Sciences II, Room 234 <br />
+Orlando, FL 32827 <br />
+Email: qian.lou at ucf.edu <br />
+[<a href="https://scholar.google.com/citations?user=SBYgXLoAAAAJ">Google Scholar</a>] [<a href="https://www.linkedin.com/in/qianlou/">LinkedIn</a>] [<a href="https://x.com/qianlife22">X</a>]
 </p>
 </td></tr></table>
 
 <h3>
-<a href="#pubs">Publications</a> | <a href="#group">Research Group</a> | <a href="#teaching">Teaching</a> | <a href="https://scholar.google.com/citations?user=SBYgXLoAAAAJ">Google Scholar</a> | <a href="#patent">Patents</a>
+<a href="#bio">Bio</a> | <a href="#research">Research</a> | <a href="#pubs">Publications</a> | <a href="#teaching">Teaching</a> | <a href="#students">Students</a> | <a href="#awards">Awards</a> | <a href="#service">Service</a>
 </h3>
 
 <!-- =========================
      UPDATED INTRO + MISSION
      ========================= -->
 
+<p><a name="bio"></a></p>
+<h2>Bio</h2>
 <p>
-Qian Lou directs the A&sup3; Lab at UCF and is a tenure-track assistant professor in Computer Science.
-He has published <b>50+</b> papers in top ML/AI/NLP/CV venues and leading security/systems venues.
-His research has been supported by major federal programs (e.g., NSF and DoD).
-He mentors multiple productive and collaborative Ph.D. students and supports student internships and career development.
-He teaches graduate-level courses and contributes sustained professional service, including area chair roles for major ML venues (e.g., NeurIPS, ICLR, ACL) and TPC/PC service for top security/systems venues (e.g., CCS, NDSS, DAC, ISCA).
+Qian Lou is an assistant professor in Computer Science at the University of Central Florida.
+Before joining UCF, he worked as a Senior Research Scientist at Samsung AI Center in Mountain View, California.
+He develops open-source models, algorithms, and systems for evolving AI workloads, with a focus on efficiency, security, privacy, and trustworthiness, and he has published 60+ papers in top machine learning, security, and systems venues.
+His work has received a Best Paper Award at Samsung Research and Best Paper Finalist recognitions at PACT and ICCAD.
+His research has been supported by major federal programs, including NSF and DoD.
 </p>
 
+<p><a name="research"></a></p>
+<h2>Research</h2>
 <p>
-<b>A&sup3; Lab — Intelligence and Agency, considering Security, Privacy, and Efficiency.</b>
-My research focuses on intelligence and agency, considering security, privacy, and efficiency. The main research topics include generative and agentic AI, secure and private intelligence, efficiency, and applied cryptography.
-We start from real applications and measurable evidence: datasets, evaluation workflows, and benchmarks that expose practical failure modes and bottlenecks.
-These takeaways directly motivate and guide our designs across model, I/O, and system layers.
+My research builds models, algorithms, and systems to make evolving AI workloads, such as LLMs and agents, efficient and trustworthy.
+A list of my publications is available <a href="#pubs">here</a>.
 </p>
 
+<p>Current Projects</p>
 <ul style="font-size: 0.95em;line-height: 1.35;">
   <li>
-    <b>(1) Evaluation &amp; Applications</b> (datasets, workflows, and benchmarks):
-    We curate domain datasets and develop data curation and synthesis pipelines (including privacy-preserving generation) for high-impact applications such as
-    <b>coding</b>, <b>research automation</b>, <b>healthcare</b>, <b>investment</b>, and <b>quantum</b>.
-    We build end-to-end evaluation workflows and define metrics to benchmark agent behavior and failure modes, including
-    <b>correctness</b>, <b>robustness</b>, <b>safety/policy compliance</b>, <b>privacy leakage</b>, and <b>cost/latency</b>.
-    These measurements provide real-world analysis, actionable takeaways, and concrete requirements for trustworthy agents.
+    <b>Controllers and Generators for LLMs and Agents.</b>
+    We design efficient and trustworthy control layers such as routing and orchestration across hardware, experts, models, and agents. Representative examples include
+    HW-Router (DAC 2026),
+    SecureRoute (DAC 2026), and
+    <a href="https://routeworks.github.io/leaderboard">R2-Router (Rank #1 on RouterArena)</a>.
+    On the generation side, we study new model architectures and compression methods, including
+    <a href="https://openreview.net/pdf?id=GWQWAeE9EpB">DictFormer (ICLR 2022)</a>,
+    <a href="https://arxiv.org/pdf/2207.00112">Low-rank language model compression (ICLR 2022)</a>, and
+    <a href="https://openreview.net/pdf?id=RFHq46pjb6">new MoE methods (TMLR 2026)</a>.
   </li>
-
   <li>
-    <b>(2) Design</b> (efficiency, safety, and security by construction):
-    Guided by evaluation-driven requirements, we design generative and agentic AI systems across three layers:
-    <b>Model-level</b> optimizations (efficiency- and security-aware training/inference, compression and pruning),
-    <b>I/O-level</b> design (compression, monitoring, copyright/provenance, and certification for efficient and safe interactions),
-    and <b>System-level</b> security (using <b>cryptographic tools such as FHE/MPC/ZK</b> and <b>trusted hardware (TEEs)</b> to protect agent data, models, and tool execution).
-    We further apply <b>system-aware optimization</b>, such as orchestration and guardrails, to achieve strong guarantees with near-native performance.
+    <b>Safety Evaluation and Guardrails.</b>
+    We study how to disclose, evaluate, and mitigate security risks in LLMs and agents. Examples include
+    <a href="https://arxiv.org/pdf/2306.06815">prompt injection attacks on LLMs (NeurIPS 2023)</a>,
+    <a href="https://arxiv.org/pdf/2406.01873">certified security for language models (ACL 2024)</a>, and
+    privacy guardrails through cryptography, including
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf">SHE (NeurIPS 2019)</a>,
+    <a href="https://arxiv.org/abs/2502.16782">CipherPrune (ICLR 2025)</a>, and
+    <a href="https://arxiv.org/abs/2510.21086">DictPFL (NeurIPS 2025)</a>.
+  </li>
+  <li>
+    <b>Secure Computing via Cryptography.</b>
+    We develop practical cryptographic systems for AI, including verifiable FHE with
+    <a href="https://arxiv.org/abs/2410.15215">DataSeal (S&amp;P 2025)</a>,
+    reliable FHE with <a href="https://dl.acm.org/doi/abs/10.1145/3779212.3790211">ReliaFHE (ASPLOS 2026)</a>,
+    universal support for linear and non-linear computation with
+    <a href="https://github.com/UCF-Lou-Lab-PET/Universal-BGV">Universal BGV (S&amp;P 2026)</a>, and AI agents design/evaluation for FHE programming through
+    <a href="https://fhe-coder.github.io/">FHE-Coder (ICLR 2026)</a>.
+  </li>
+</ul>
+
+<p>Older Projects</p>
+<ul style="font-size: 0.95em;line-height: 1.35;">
+  <li>
+    <b>On-device Designs for AI and Cryptography.</b>
+    Earlier work focused on efficient on-device AI and cryptographic acceleration, including
+    <a href="https://arxiv.org/pdf/1902.05690">AutoQ (ICLR 2020)</a> and
+    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Lou_Lite-MDETR_A_Lightweight_Multi-Modal_Detector_CVPR_2022_paper.pdf">Lite-MDETR (CVPR 2022)</a>.
   </li>
 </ul>
 
@@ -82,63 +111,44 @@ These takeaways directly motivate and guide our designs across model, I/O, and s
      ========================= -->
 
 <h2>News</h2>
+<div class="news-scroll">
 <table id="Highlights">
   <tr class="r1"><td class="c1">03 / 2026</td><td class="c1">[Paper]</td><td class="c2">Our paper about arithmetic-comparison FHE has been accepted by S&amp;P 2026.</td></tr>
   <tr class="r1"><td class="c1">02 / 2026</td><td class="c1">[Paper]</td><td class="c2">Three papers have been accepted by DAC 2026.</td></tr>
   <tr class="r1"><td class="c1">02 / 2026</td><td class="c1">[Paper]</td><td class="c2">Our work on copyright protection of large vision-language models has been accepted by CVPR 2026. </td></tr>
-  <tr class="r1"><td class="c1">02 / 2026</td><td class="c1">[Learderboard]</td><td class="c2">Our LLM Router (<a href="https://arxiv.org/abs/2602.02823">R2-Router</a>) ranks #1 on <a href="https://routeworks.github.io/leaderboard"> RouterArena </a> </td></tr>
+  <tr class="r1"><td class="c1">02 / 2026</td><td class="c1">[Leaderboard]</td><td class="c2">Our LLM Router (<a href="https://arxiv.org/abs/2602.02823">R2-Router</a>) ranks #1 on <a href="https://routeworks.github.io/leaderboard">RouterArena</a>.</td></tr>
   <tr class="r1"><td class="c1">01 / 2026</td><td class="c1">[Paper]</td><td class="c2">Our work on Agentic AI for FHE code generation has been accepted by  ICLR 2026. </td></tr>
       <tr class="r1"><td class="c1">12 / 2025</td><td class="c1">[Paper]</td><td class="c2">One paper about Resilient FHE has been accepted by  ASPLOS 2026. </td></tr>
        <tr class="r1"><td class="c1">12 / 2025</td><td class="c1">[Paper]</td><td class="c2">Two papers have been accepted by  ICASSP 2026. </td></tr>
       <tr class="r1"><td class="c1">11 / 2025</td><td class="c1">[Paper]</td><td class="c2">Our work on Encrypted Computing for AI has been accepted by  PETS 2026. </td></tr>
-    <tr class="r1"><td class="c1">10 / 2025</td><td class="c1">[Paper]</td><td class="c2">One paper about Quantum Computing Security has been accepted by  NDSS 2026. </td></tr>
+  <tr class="r1"><td class="c1">10 / 2025</td><td class="c1">[Paper]</td><td class="c2">One paper about Quantum Computing Security has been accepted by  NDSS 2026. </td></tr>
   <tr class="r1"><td class="c1">09 / 2025</td><td class="c1">[Paper]</td><td class="c2">Our federated learning with encrypted aggregation (&lt;2x overhead) is accepted by NeurIPS 2025. </td></tr>
-  <tr class="r1"><td class="c1">08 / 2025</td><td class="c1">[Grant]</td><td class="c2">Our privacy-preserving data synthesis based on private computing is funded by NSF SaTC Crosscutting.</td></tr>
-  <tr class="r1"><td class="c1">08 / 2025</td><td class="c1">[Paper]</td><td class="c2">Two papers are accepted by EMNLP 2026. </td></tr>
-  <tr class="r1"><td class="c1">04 / 2025</td><td class="c1">[Grant]</td><td class="c2">Our LLM Application Security Testing (LAST) Framework is funded by the DoD Pathfinder Program.</td></tr>
-  <tr class="r1"><td class="c1">03 / 2025</td><td class="c1">[Grant]</td><td class="c2">Our system support for secure computing is funded by <a href="https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing">NSF CISE Core</a>.</td></tr>
-  <tr class="r1"><td class="c1">02 / 2025</td><td class="c1">[Paper]</td><td class="c2">One paper is accepted by DAC 2025.</td></tr>
-  <tr class="r1"><td class="c1">01 / 2025</td><td class="c1">[Paper]</td><td class="c2">One paper is accepted by <a href="https://openreview.net/pdf?id=mUMvr33FTu">ICLR 2025</a>.</td></tr>
-  <tr class="r1"><td class="c1">10 / 2024</td><td class="c1">[Paper]</td><td class="c2">One paper is accepted by <a href="https://neurips.cc/virtual/2024/poster/93046">NeurIPS 2024</a>.</td></tr>
-  <tr class="r1"><td class="c1">09 / 2024</td><td class="c1">[Paper]</td><td class="c2">Two papers about <a href="https://arxiv.org/abs/2406.18725">Jailbreaking</a> and fairness backdoors are accepted by EMNLP 2024.</td></tr>
-  <tr class="r1"><td class="c1">09 / 2024</td><td class="c1">[Paper]</td><td class="c2">DataSeal is accepted by IEEE S&amp;P 2025.</td></tr>
-  <tr class="r1"><td class="c1">07 / 2024</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/abs/2410.13405">One paper is accepted by MICRO 2024</a>.</td></tr>
-  <tr class="r1"><td class="c1">07 / 2024</td><td class="c1">[Paper]</td><td class="c2">WBP is accepted by ECCV 2024.</td></tr>
-  <tr class="r1"><td class="c1">07 / 2024</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/pdf/2303.09079">SSL-Cleanse is accepted by ECCV 2024</a>.</td></tr>
-  <tr class="r1"><td class="c1">06 / 2024</td><td class="c1">[Paper]</td><td class="c2">BoostCom is accepted by PACT 2024.</td></tr>
-  <tr class="r1"><td class="c1">05 / 2024</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/pdf/2406.01873">CR-UTP is accepted by ACL 2024</a>.</td></tr>
-  <tr class="r1"><td class="c1">03 / 2024</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/pdf/2312.10467">TrojFSP is accepted by NAACL 2024 (Oral in the main conference)</a>.</td></tr>
-  <tr class="r1"><td class="c1">09 / 2023</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/abs/2306.06815">TrojLLM is accepted by NeurIPS 2023</a>.</td></tr>
-  <tr class="r1"><td class="c1">02 / 2023</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/abs/2208.13049">TrojViT is accepted by CVPR 2023</a>.</td></tr>
-  <tr class="r1"><td class="c1">02 / 2023</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/pdf/2303.13679.pdf">Primer is accepted by DAC 2023</a>.</td></tr>
-  <tr class="r1"><td class="c1">01 / 2023</td><td class="c1">[Paper]</td><td class="c2"><a href="https://openreview.net/pdf?id=ja4Lpp5mqc2">TrojText is accepted by ICLR 2023</a>.</td></tr>
-  <tr class="r1"><td class="c1">10 / 2022</td><td class="c1">[Paper]</td><td class="c2"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=SBYgXLoAAAAJ&amp;sortby=pubdate&amp;citation_for_view=SBYgXLoAAAAJ:-FonjvnnhkoC">Weighted value decomposition on language model</a> is accepted by EMNLP 2022.</td></tr>
-  <tr class="r2"><td class="c1">03 / 2022</td><td class="c1">[Paper]</td><td class="c2"><a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Lou_Lite-MDETR_A_Lightweight_Multi-Modal_Detector_CVPR_2022_paper.pdf">LITE-MDETR</a> is accepted by CVPR 2022.</td></tr>
-  <tr class="r2"><td class="c1">02 / 2022</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/abs/2202.08814">MATCHA</a> is accepted by DAC 2022.</td></tr>
-  <tr class="r3"><td class="c1">01 / 2022</td><td class="c1">[Paper]</td><td class="c2"><a href="https://openreview.net/forum?id=uPv9Y3gmAI5">Language Model Compression</a> is accepted by ICLR 2022.</td></tr>
-  <tr class="r4"><td class="c1">01 / 2022</td><td class="c1">[Paper]</td><td class="c2"><a href="https://openreview.net/forum?id=GWQWAeE9EpB">DictFormer</a> is accepted by ICLR 2022.</td></tr>
-  <tr class="r7"><td class="c1">08 / 2021</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/abs/2010.11796">CryptoGRU</a> is accepted by EMNLP 2021.</td></tr>
-  <tr class="r8"><td class="c1">05 / 2021</td><td class="c1">[Paper]</td><td class="c2"><a href="https://arxiv.org/pdf/2106.00038.pdf">HEMET</a> is accepted by ICML 2021.</td></tr>
-  <tr class="r9"><td class="c1">05 / 2021</td><td class="c1">[Award]</td><td class="c2">Qian received a Luddy Outstanding Research Award.</td></tr>
-  <tr class="r10"><td class="c1">09 / 2020</td><td class="c1">[Paper]</td><td class="c2">Three papers were accepted by NeurIPS 2020.</td></tr>
 </table>
+</div>
 
-<p><a name="group"></a></p>
-<h2>Research Group</h2>
+<p><a name="students"></a></p>
+<h2>Students</h2>
 <p>We are a collaborative team. </p>
-
-
-<!-- =========================
-<h3>Ph.D. Students</h3>
+<p>Current Ph.D. students:</p>
 <ul>
-<li> Mansour Al Ghanim  (2021 Fall -)</li>
-<li> <a href="https://jqxue1999.github.io/"> Jiaqi Xue (2023 Spring-) </a></li>
-<li> Rochana Prih Hastuti (2023 Fall-)</li>
-<li> Mayank Kumar (2024 Fall-) </li>
-<li> Hedong Zhang (2024 Fall-)</li>
-<li> Yifei Zhao (2024 Fall-)</li>
+<li><p>Jiaqi Xue (2023 Spring-)</p></li>
+<li><p>Rochana Prih Hastuti (2023 Fall-)</p></li>
+<li><p>Mayank Kumar (2024 Fall-)</p></li>
+<li><p>Hedong Zhang (2024 Fall-)</p></li>
+<li><p>Yifei Zhao (2024 Fall-, with Mengxin Zheng)</p></li>
+<li><p>Erwin Eko Wahyud (2024 Fall-, with Yan Solihin)</p></li>
+<li><p>Rakibul Hasan Rajib (2025 Fall-)</p></li>
+<li><p>Ahasan Kabir (2025 Fall-)</p></li>
+<li><p>Yukuan Zhang (2025 Fall-)</p></li>
+<li><p>Xi Shi (2025 Fall-)</p></li>
 </ul>
- ========================= -->
+
+<p>Graduated Ph.D. students:</p>
+<ul>
+<li><p>Mansour Al Ghanim (graduated 2025), faculty at King Khalid University</p></li>
+</ul>
+
+<!--
 <div class="infoblock">
 <div class="blockcontent">
 <ul>
@@ -152,14 +162,27 @@ Have questions? Check out <a href="advisor_guide.html">my answers to the PhD Adv
 </li>
 </ul>
 </div></div>
+-->
 
 <!-- =========================
      RECENT COMMUNITY SERVICES (RESTORED)
      ========================= -->
-<h2>Recent Community Services</h2>
+<p><a name="awards"></a></p>
+<h2>Awards</h2>
+<ul>
+<li><p>2025: Distinguished Speaker at Warren B. Nelms Annual AIoT Conference</p></li>
+<li><p>2022: Best Paper Award at Samsung Research America</p></li>
+<li><p>2021: Luddy Outstanding Research Award from Indiana University Bloomington</p></li>
+<li><p>2020: Best Paper Finalist at ACM Parallel Architectures and Compilation Techniques (PACT)</p></li>
+<li><p>2018: Best Paper Finalist at International Conference on Computer-Aided Design (ICCAD)</p></li>
+</ul>
+
+<p><a name="service"></a></p>
+<h2>Service</h2>
 <ul>
 <li><p>NSF: Panelist</p></li>
 <li><p>ICLR 2026: Area Chair</p></li>
+<li><p>ACL 2026: Area Chair</p></li>
 <li><p>NeurIPS 2025: Area Chair</p></li>
 <li><p>CCS 2026: Program Committee</p></li>
 <li><p>NDSS 2026: Program Committee</p></li>
@@ -186,203 +209,344 @@ Have questions? Check out <a href="advisor_guide.html">my answers to the PhD Adv
 
 <p><a name="pubs"></a></p>
 <h2>Publications</h2>
-
-<h3>Publications at UCF</h3>
 * indicates students and staff under my supervision
 
 <!-- =========================
      NEW (prepend before previous publications; do not delete old ones)
      ========================= -->
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[ICLR 26]</b> TFHE-Coder: Evaluating LLM Agents for secure Fully Homomorphic Encryption Code Generation <br />
-Mayank Kumar*, Jiaqi Xue*, Mengxin Zheng, Qian Lou <br />
-<i>International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026</i> <br />
-<!-- Add links when ready: [<a href="">Paper (PDF)</a>] [<a href="">Code</a>] -->
-<br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[S&amp;P 26]</b> Efficient Arithmetic-and-Comparison Homomorphic Encryption with Space Switching <br />
+Erwin Eko Wahyudi, Yan Solihin, Qian Lou <br />
+<i>IEEE Symposium on Security and Privacy (S&amp;P), 2026</i>
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[PoPETs 26]</b> SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DAC 26]</b> HW-Router: Hardware-Aware Routing for Scalable Multi-LLM Serving <br />
+Ahasan Kabir*, Jiaqi Xue, Mengxin Zheng, Qian Lou <br />
+<i>Design Automation Conference (DAC), 2026</i>
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DAC 26]</b> SecureRoute: Input-Adaptive Encrypted Routing for Efficient and Accurate MPC-Based Transformer Inference <br />
+Yukuan Zhang*, Mengxin Zheng, Qian Lou <br />
+<i>Design Automation Conference (DAC), 2026</i>
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[CVPR 26]</b> SIF: Semantically In-Distribution Fingerprints for Large Vision-Language Models <br />
+Yifei Zhao*, Qian Lou, Mengxin Zheng <br />
+<i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</i>
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[PoPETs 26]</b> SoK: Can Fully Homomorphic Encryption Support General AI Computation? A Functional and Cost Analysis <br />
 Jiaqi Xue*, Xin Xin, Wei Zhang, Mengxin Zheng, Qianqian Song, Minxuan Zhou, Yushun Dong, Dongjie Wang, Xun Chen, Jiafeng Xie, Liqiang Wang, David Mohaisen, Hongyi Wu, Qian Lou <br />
-<i>Proceedings on Privacy Enhancing Technologies (PoPETs), Calgary, Canada, 2026</i> <br />
-<!-- Add links when ready: [<a href="">Paper (PDF)</a>] -->
-<br />
+<i>Proceedings on Privacy Enhancing Technologies (PoPETs), 2026</i>
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[SaTML 26]</b> RobPI: Robust Private Inference against Malicious Client <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ASPLOS 26]</b> ReliaFHE: Resilient Design for Fully Homomorphic Encryption Accelerators <br />
+Fan Li, Mayank Kumar*, Ruizhi Zhu, Mengxin Zheng, Qian Lou, Xin Xin <br />
+<i>ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2026</i>
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[SaTML 26]</b> RobPI: Robust Private Inference against Malicious Client <br />
 Jiaqi Xue*, Mengxin Zheng, Qian Lou <br />
-<i>IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), Munich, Germany, 2026</i> <br />
-<!-- Add links when ready: [<a href="">Paper (PDF)</a>] [<a href="">Code</a>] -->
-<br />
+<i>IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2026</i>
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[NeurIPS 25]</b> DictPFL: Efficient and Private Federated Learning on Encrypted Gradients <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICLR 26]</b> FHE-Coder: Secure Agentic Code Generation for Fully Homomorphic Encryption <br />
+Mayank Kumar*, Jiaqi Xue, Mengxin Zheng, Qian Lou <br />
+<i>International Conference on Learning Representations (ICLR), 2026</i>
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICASSP 26]</b> VQEzy: An Open-Source Dataset for Parameter Initialization in Variational Quantum Eigensolvers <br />
+Chi Zhang*, Mengxin Zheng, Qian Lou, Hui Min Leung, Fan Chen <br />
+<i>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026</i>
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICASSP 26]</b> DiffQ: Unified Parameter Initialization for Variational Quantum Algorithms via Diffusion Models <br />
+Chi Zhang*, Mengxin Zheng, Qian Lou, Fan Chen <br />
+<i>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026</i>
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NeurIPS 25]</b> DictPFL: Efficient and Private Federated Learning on Encrypted Gradients <br />
 Jiaqi Xue*, Mayank Kumar*, Yuzhang Shang, Shangqian Gao, Rui Ning, Mengxin Zheng, Xiaoqian Jiang, Qian Lou <br />
-<i>Annual Conference on Neural Information Processing Systems (NeurIPS), San Diego, United States, 2025</i> <br />
-<!-- Add links when ready: [<a href="">Paper (PDF)</a>] [<a href="">Code</a>] -->
-<br />
+<i>Conference on Neural Information Processing Systems (NeurIPS), 2025</i>
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[EMNLP 25]</b> Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[EMNLP 25]</b> Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations <br />
 Mansour Al Ghanim*, Jiaqi Xue*, Rochana Prih Hastuti*, Mengxin Zheng, Yan Solihin, Qian Lou <br />
-<i>Empirical Methods in Natural Language Processing (EMNLP), Suzhou, China, 2025</i> <br />
-<!-- Add links when ready: [<a href="">Paper (PDF)</a>] -->
-<br />
+<i>Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025</i>
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[EMNLP 25]</b> Factuality Beyond Coherence: Evaluating LLM Watermarking Methods for Medical Texts <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[EMNLP 25]</b> Factuality Beyond Coherence: Evaluating LLM Watermarking Methods for Medical Texts <br />
 Rochana Prih Hastuti*, Rian Adam Rajagede, Mansour Al Ghanim*, Mengxin Zheng, Qian Lou <br />
-<i>Empirical Methods in Natural Language Processing (EMNLP), Suzhou, China, 2025</i> <br />
-<!-- Add links when ready: [<a href="">Paper (PDF)</a>] -->
-<br />
+<i>Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025</i>
 </p></td></tr></table>
 
 <!-- =========================
      PREVIOUS PUBLICATIONS (kept; not deleted)
      ========================= -->
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[DAC 25] </b> zkVC: Fast Zero-Knowledge Proof for Private and Verifiable Computing <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DAC 25]</b> zkVC: Fast Zero-Knowledge Proof for Private and Verifiable Computing <br />
 Yancheng Zhang*, Mengxin Zheng, Xun Chen, Jingtong Hu, Weidong Shi, Lei Ju, Yan Solihin, Qian Lou <br />
-<i> The Design Automation Conference (DAC), 2025 </i> <br />
-[<a href="https://arxiv.org/abs/2504.12217">Paper (PDF)</a>]  [<a href="https://github.com/UCF-Lou-Lab-PET/zkformer">Code</a>]
-<br />
+<i>Design Automation Conference (DAC), 2025</i><br />
+[<a href="https://arxiv.org/abs/2504.12217">Paper (PDF)</a>] [<a href="https://github.com/UCF-Lou-Lab-PET/zkformer">Code</a>]
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[ICLR 25] </b> CipherPrune:  Efficient and Scalable Private Transformer Inference <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICLR 25]</b> CipherPrune: Efficient and Scalable Private Transformer Inference <br />
 Yancheng Zhang*, Jiaqi Xue*, Mengxin Zheng, Mimi Xie, Mingzhe Zhang, Lei Jiang, Qian Lou <br />
-<i> The Thirteenth International Conference on Learning Representations </i> <br />
-[<a href="https://openreview.net/pdf?id=mUMvr33FTu">Paper (PDF)</a>]  [<a href="https://anonymous.4open.science/r/CipherPrune-8AEC">Code</a>]
-<br />
+<i>International Conference on Learning Representations (ICLR), 2025</i><br />
+[<a href="https://openreview.net/pdf?id=mUMvr33FTu">Paper (PDF)</a>] [<a href="https://anonymous.4open.science/r/CipherPrune-8AEC">Code</a>]
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[S&amp;P 25] </b> DataSeal: Ensuring the Verifiability of Private Computation on Encrypted Data <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[S&amp;P 25]</b> DataSeal: Ensuring the Verifiability of Private Computation on Encrypted Data <br />
 Muhammad Husni Santriaji*, Jiaqi Xue*, Yancheng Zhang*, Qian Lou, Yan Solihin <br />
-<i> 2025 IEEE Symposium on Security and Privacy (SP) </i> <br />
+<i>IEEE Symposium on Security and Privacy (S&amp;P), 2025</i><br />
 [<a href="https://www.computer.org/csdl/proceedings-article/sp/2025/223600a078/21B7RlxV5Ly">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[NeurIPS 24] </b> HEPrune: Fast Private Training of Deep Neural Networks With Encrypted Data Pruning <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NeurIPS 24]</b> HEPrune: Fast Private Training of Deep Neural Networks With Encrypted Data Pruning <br />
 Yancheng Zhang*, Mengxin Zheng, Yuzhang Shang, Xun Chen, Qian Lou <br />
-<i> The Thirty-eighth Annual Conference on Neural Information Processing Systems </i> <br />
-[<a href="https://openreview.net/pdf?id=y2fAmldTIf">Paper (PDF)</a>]  [<a href="https://github.com/UCF-Lou-Lab-PET/Private-Data-Prune">Code</a>]
-<br />
+<i>Conference on Neural Information Processing Systems (NeurIPS), 2024</i><br />
+[<a href="https://openreview.net/pdf?id=y2fAmldTIf">Paper (PDF)</a>] [<a href="https://github.com/UCF-Lou-Lab-PET/Private-Data-Prune">Code</a>]
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[EMNLP 24] </b> BadFair: Backdoored Fairness Attacks with Group-conditioned Triggers <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[EMNLP 24]</b> BadFair: Backdoored Fairness Attacks with Group-conditioned Triggers <br />
 Jiaqi Xue*, Qian Lou, Mengxin Zheng <br />
-<i> Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024 </i> <br />
+<i>Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024</i><br />
 [<a href="https://aclanthology.org/2024.findings-emnlp.484/">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[EMNLP 24] </b> Jailbreaking LLMs with Arabic Transliteration and Arabizi <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[EMNLP 24]</b> Jailbreaking LLMs with Arabic Transliteration and Arabizi <br />
 Mansour Al Ghanim*, Saleh Almohaimeed, Mengxin Zheng, Yan Solihin, Qian Lou <br />
-<i> Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024 </i> <br />
-[<a href="https://aclanthology.org/2024.emnlp-main.1034/">Paper (PDF)</a>]  [<a href="https://github.com/SecureDL/arabic_jailbreak">Code</a>]
-<br />
+<i>Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024</i><br />
+[<a href="https://aclanthology.org/2024.emnlp-main.1034/">Paper (PDF)</a>] [<a href="https://github.com/SecureDL/arabic_jailbreak">Code</a>]
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[MICRO 24] </b> Trinity: A General Purpose FHE Accelerator <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[MICRO 24]</b> Trinity: A General Purpose FHE Accelerator <br />
 Xianglong Deng, Shengyu Fan, Zhicheng Hu, Zhuoyu Tian, Zihao Yang, Jiangrui Yu, Dingyuan Cao, Dan Meng, Rui Hou, Meng Li, Qian Lou, Mingzhe Zhang <br />
-<i> IEEE/ACM International Symposium on Microarchitecture (MICRO), 2024 </i> <br />
+<i>IEEE/ACM International Symposium on Microarchitecture (MICRO), 2024</i><br />
 [<a href="https://arxiv.org/abs/2410.13405">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[CCS-WAHC 24] </b> HEBridge: Connecting Arithmetic and Logic Operations in FV-style HE Schemes <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[CCS-WAHC 24]</b> HEBridge: Connecting Arithmetic and Logic Operations in FV-style HE Schemes <br />
 Yancheng Zhang*, Xun Chen, Qian Lou <br />
-<i> WAHC'24: Proceedings of the 12th Workshop on Encrypted Computing &amp; Applied Homomorphic Cryptography </i> <br />
+<i>Workshop on Encrypted Computing &amp; Applied Homomorphic Cryptography (WAHC), 2024</i><br />
 [<a href="https://dl.acm.org/doi/abs/10.1145/3689945.3694807">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[CCS-LAMPS 24] </b> TrojFair: Trojan Fairness Attacks <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[CCS-LAMPS 24]</b> TrojFair: Trojan Fairness Attacks <br />
 Jiaqi Xue*, Mengxin Zheng, Yi Sheng, Lei Yang, Qian Lou, Lei Jiang <br />
-<i> 1st ACM Workshop on Large AI Systems and Models with Privacy and Safety Analysis (LAMPS), 2024 </i> <br />
+<i>Workshop on Large AI Systems and Models with Privacy and Safety Analysis (LAMPS), 2024</i><br />
 [<a href="https://dl.acm.org/doi/10.1145/3689217.3690620">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[CCS-LAMPS 24] </b> CryptoTrain: Fast Secure Training on Encrypted Data <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[CCS-LAMPS 24]</b> CryptoTrain: Fast Secure Training on Encrypted Data <br />
 Jiaqi Xue*, Yancheng Zhang*, Yanshan Wang, Xueqiang Wang, Hao Zheng, Qian Lou <br />
-<i> 1st ACM Workshop on Large AI Systems and Models with Privacy and Safety Analysis (LAMPS), 2024 </i> <br />
+<i>Workshop on Large AI Systems and Models with Privacy and Safety Analysis (LAMPS), 2024</i><br />
 [<a href="https://dl.acm.org/doi/10.1145/3689217.3690617">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[ACL 24] </b> CR-UTP: Certified Robustness against Universal Text Perturbations on Large Language Models <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ACL 24]</b> CR-UTP: Certified Robustness against Universal Text Perturbations on Large Language Models <br />
 Qian Lou, Xin Liang*, Jiaqi Xue*, Yancheng Zhang*, Rui Xie, Mengxin Zheng <br />
-<i> Findings of the Association for Computational Linguistics (ACL), 2024 </i> <br />
+<i>Findings of the Association for Computational Linguistics (ACL), 2024</i><br />
 [<a href="https://aclanthology.org/2024.findings-acl.588.pdf">Paper (PDF)</a>] [<a href="https://github.com/UCF-ML-Research/CR-UTP">Code</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[ISLPED 24] </b> OFHE: An Electro-Optical Accelerator for Discretized TFHE <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ISLPED 24]</b> OFHE: An Electro-Optical Accelerator for Discretized TFHE <br />
 Mengxin Zheng, Cheng Chu, Qian Lou, Nathan Youngblood, Mo Li, Sajjad Moazeni, Lei Jiang <br />
-<i> Proceedings of the 29th ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED), 2024 </i> <br />
+<i>IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED), 2024</i><br />
 [<a href="https://dl.acm.org/doi/abs/10.1145/3665314.3670839">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[PACT 24] </b> BoostCom: Towards Efficient Universal Fully Homomorphic Encryption by Boosting the Word-wise Comparisons <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[PACT 24]</b> BoostCom: Towards Efficient Universal Fully Homomorphic Encryption by Boosting the Word-wise Comparisons <br />
 Ardhi Wiratama Baskara Yudha*, Jiaqi Xue*, Qian Lou, Huiyang Zhou, Yan Solihin <br />
-<i> The International Conference on Parallel Architectures and Compilation Techniques (PACT), 2024 </i> <br />
+<i>ACM International Conference on Parallel Architectures and Compilation Techniques (PACT), 2024</i><br />
 [<a href="https://dl.acm.org/doi/abs/10.1145/3656019.3676893">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[ECCV 24] </b> WBP: Training-time Backdoor Attacks through Weight Bit Poisoning. <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ECCV 24]</b> WBP: Training-time Backdoor Attacks through Weight Bit Poisoning. <br />
 Kunbei Cai, Zhenkai Zhang, Qian Lou, Fan Yao <br />
-<i> The 18th European Conference on Computer Vision (ECCV), 2024 </i> <br />
-[<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08195.pdf">Paper (PDF)</a>]  [<a href="https://github.com/casrl/WBP">Code</a>]
-<br />
+<i>European Conference on Computer Vision (ECCV), 2024</i><br />
+[<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08195.pdf">Paper (PDF)</a>] [<a href="https://github.com/casrl/WBP">Code</a>]
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[ECCV 24] </b> SSL-Cleanse: Trojan detection and mitigation in self-supervised learning. <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ECCV 24]</b> SSL-Cleanse: Trojan detection and mitigation in self-supervised learning. <br />
 Mengxin Zheng, Jiaqi Xue, Zihao Wang, Xun Chen, Qian Lou, Lei Jiang, Xiaofeng Wang <br />
-<i> The 18th European Conference on Computer Vision (ECCV), 2024 </i> <br />
-[<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11933.pdf">Paper (PDF)</a>]  [<a href="https://github.com/UCF-ML-Research/SSL-Cleanse">Code</a>]
-<br />
+<i>European Conference on Computer Vision (ECCV), 2024</i><br />
+[<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11933.pdf">Paper (PDF)</a>] [<a href="https://github.com/UCF-ML-Research/SSL-Cleanse">Code</a>]
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[Mathematics 24] </b> Unveiling Fall Triggers in Older Adults: A Machine Learning Graphical Model Analysis <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[Mathematics 24]</b> Unveiling Fall Triggers in Older Adults: A Machine Learning Graphical Model Analysis <br />
 Tho Nguyen, Ladda Thiamwong, Qian Lou, Rui Xie <br />
-<i> Mathematics, 2024 </i> <br />
+<i>Mathematics, 2024</i><br />
 [<a href="https://doi.org/10.3390/math12091271">Paper (PDF)</a>]
-<br />
 </p></td></tr></table>
 
-<table class="imgtable"><tr><td>
-<td align="left"><p><b>[NAACL 24] </b> TrojFSP: Trojan Insertion in Few-shot Prompt Tuning <br />
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NAACL 24]</b> TrojFSP: Trojan Insertion in Few-shot Prompt Tuning <br />
 Mengxin Zheng, Jiaqi Xue*, Xun Chen, Yanshan Wang, Qian Lou, Lei Jiang <br />
-<i> Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL), 2024</i> <br />
-[<a href="https://aclanthology.org/2024.naacl-long.64/">Paper (PDF)</a>]  [<a href="https://github.com/UCF-ML-Research/TrojFSP">Code</a>]
+<i>North American Chapter of the Association for Computational Linguistics (NAACL), 2024</i><br />
+[<a href="https://aclanthology.org/2024.naacl-long.64/">Paper (PDF)</a>] [<a href="https://github.com/UCF-ML-Research/TrojFSP">Code</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NeurIPS 23]</b> TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models <br />
+Jiaqi Xue*, Mengxin Zheng, Ting Hua, Yilin Shen, Yepeng Liu, Ladislau Boloni, Qian Lou <br />
+<i>Conference on Neural Information Processing Systems (NeurIPS), 2023</i> <br />
 <br />
 </p></td></tr></table>
 
-<!-- (Continue with the rest of your existing publications below, unchanged) -->
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ECAI 23]</b> TrojBits: A Hardware Aware Inference-Time Attack on Transformer-Based Language Models <br />
+Mansour Al Ghanim*, Muhammad Santriaji*, Qian Lou, Yan Solihin <br />
+<i>European Conference on Artificial Intelligence (ECAI), 2023</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ISQED 23]</b> PriML: An Electro-Optical Accelerator for Private Machine Learning on Encrypted Data <br />
+Mengxin Zheng, Fan Chen, Lei Jiang, Qian Lou <br />
+<i>International Symposium on Quality Electronic Design (ISQED), 2023</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICLR 23]</b> TrojText: Invisible Test-time Trojan Insertion <br />
+Qian Lou, Yepeng Liu*, Bo Feng <br />
+<i>International Conference on Learning Representations (ICLR), 2023</i><br />
+[<a href="https://openreview.net/pdf?id=ja4Lpp5mqc2">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[CVPR 23]</b> TrojViT: Trojan Insertion in Vision Transformers <br />
+Mengxin Zheng, Qian Lou, Lei Jiang <br />
+<i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</i><br />
+[<a href="https://arxiv.org/abs/2208.13049">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DAC 23]</b> Primer: Privacy-Preserving Transformer on Encrypted Data <br />
+Mengxin Zheng, Qian Lou, Lei Jiang <br />
+<i>Design Automation Conference (DAC), 2023</i><br />
+[<a href="https://arxiv.org/pdf/2303.13679.pdf">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[CVPR 22]</b> Lite-MDETR: A Lightweight Multi-Modal Detector <br />
+Qian Lou, Yen-Chang Hsu, Burak Uzkent, Ting Hua, Yilin Shen, Hongxia Jin <br />
+<i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</i><br />
+[<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Lou_Lite-MDETR_A_Lightweight_Multi-Modal_Detector_CVPR_2022_paper.pdf">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DAC 22]</b> MATCHA: A Fast and Energy-Efficient Accelerator for Fully Homomorphic Encryption over the Torus <br />
+Lei Jiang, Qian Lou, Nrushad Joshi <br />
+<i>Design Automation Conference (DAC), 2022</i><br />
+[<a href="https://arxiv.org/abs/2202.08814">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICLR 22]</b> Language model compression with weighted low-rank factorization <br />
+Yen-Chang Hsu, Ting Hua, Sungen Chang, Qian Lou, Yilin Shen, Hongxia Jin <br />
+<i>International Conference on Learning Representations (ICLR), 2022</i><br />
+[<a href="https://openreview.net/forum?id=uPv9Y3gmAI5">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICLR 22]</b> DictFormer: Tiny Transformer with Shared Dictionary <br />
+Qian Lou, Ting Hua, Yen-Chang Hsu, Yilin Shen, Hongxia Jin <br />
+<i>International Conference on Learning Representations (ICLR), 2022</i><br />
+[<a href="https://openreview.net/forum?id=GWQWAeE9EpB">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DATE 22]</b> coxHE: A software hardware co-design framework for FPGA acceleration of homomorphic computation <br />
+Mingqin Han, Yilian Zhu, Qian Lou, Zimeng Zhou, Shanqing Guo, Lei Ju <br />
+<i>Design, Automation and Test in Europe Conference (DATE), 2022</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[EMNLP 21]</b> Low Latency Privacy-Preserving Text Analysis With GRU <br />
+Bo Feng, Qian Lou, Geoffrey C. Fox, Lei Jiang <br />
+<i>Conference on Empirical Methods in Natural Language Processing (EMNLP), 2021</i><br />
+[<a href="https://arxiv.org/abs/2010.11796">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICML 21]</b> HEMET: A Homomorphic-Encryption-Friendly Privacy-Preserving Mobile Neural Network Architecture <br />
+Qian Lou, Lei Jiang <br />
+<i>International Conference on Machine Learning (ICML), 2021</i><br />
+[<a href="https://arxiv.org/pdf/2106.00038.pdf">Paper (PDF)</a>]
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[IJCAI 21]</b> Automatic Mixed-Precision Quantization Search of BERT <br />
+Changsheng Zhao, Ting Hua, Yilin Shen, Qian Lou, Hongxia Jin <br />
+<i>International Joint Conference on Artificial Intelligence (IJCAI), 2021</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICLR 21]</b> SAFENet: A Secure, Accurate, and Fast Neural Network Inference <br />
+Qian Lou, Yilin Shen, Hongxia Jin, Lei Jiang <br />
+<i>International Conference on Learning Representations (ICLR), 2021</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NeurIPS 20]</b> Falcon: Fast Spectral Inference on Encrypted Data <br />
+Qian Lou, Wenjie Lu, Cheng Hong, Lei Jiang <br />
+<i>Conference on Neural Information Processing Systems (NeurIPS), 2020</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NeurIPS 20]</b> AutoPrivacy: Automated Layer-wise Parameter Selection for Secure Neural Network Inference <br />
+Qian Lou, Bian Song, Lei Jiang <br />
+<i>Conference on Neural Information Processing Systems (NeurIPS), 2020</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NeurIPS 20]</b> Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted Data <br />
+Qian Lou, Bo Feng, Geoffrey C. Fox, Lei Jiang <br />
+<i>Conference on Neural Information Processing Systems (NeurIPS), 2020</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[PACT 20]</b> Helix: Algorithm/Architecture Co-design for Accelerating Nanopore Genome Base-calling <br />
+Qian Lou, Sarath Janga, Lei Jiang <br />
+<i>ACM International Conference on Parallel Architectures and Compilation Techniques (PACT), 2020</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICLR 20]</b> AutoQ: Automated Kernel-Wise Neural Network Quantization <br />
+Qian Lou, Feng Guo, Minje Kim, Lantao Liu, Lei Jiang <br />
+<i> International Conference on Learning Representations (ICLR), 2020 </i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DATE 20]</b> LightBulb: A Photonic-Nonvolatile-Memory-based Accelerator for Binarized Convolutional Neural Networks <br />
+Farzinah Zokaee, Qian Lou, N. Youngblood, Weichen Liu, Lei Jiang <br />
+<i>Design, Automation and Test in Europe Conference (DATE), 2020</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ASP-DAC 20]</b> MindReading: An Ultra-Low-Power Photonic Accelerator for EEG-based Human Intention Recognition <br />
+Qian Lou, Weichen Liu, Wenyang Liu, Feng Guo, Lei Jiang <br />
+<i>Asia and South Pacific Design Automation Conference (ASP-DAC), 2020</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NeurIPS 19]</b> SHE: A Fast and Accurate Deep Neural Network for Encrypted Data <br />
+Qian Lou, Lei Jiang <br />
+<i>Conference on Neural Information Processing Systems (NeurIPS), 2019</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[DATE 19]</b> HolyLight: A Nanophotonic Accelerator for Deep Learning in Data Centers <br />
+Weichen Liu, Wenyang Liu, Yichen Ye, Qian Lou, Yiyuan Xie, Lei Jiang <br />
+<i>Design, Automation and Test in Europe Conference (DATE), 2019</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[ICCAD 18]</b> 3DICT: a reliable and QoS capable mobile process-in-memory architecture for lookup-based CNNs in 3D XPoint ReRAMs <br />
+Qian Lou, Wujie Wen, Lei Jiang <br />
+<i>IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2018</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[CAL 18]</b> BRAWL: A Spintronics-Based Portable Basecalling-in-Memory Architecture for Nanopore Genome Sequencing <br />
+Qian Lou, Lei Jiang <br />
+<i>IEEE Computer Architecture Letters, 2018</i> <br />
+<br />
+</p></td></tr></table>
+
+<table class="imgtable pubentry"><tr><td align="left"><p><b>[NVMSA 17]</b> Runtime and reconfiguration dual-aware placement for SRAM-NVM hybrid FPGAs <br />
+Qian Lou, Mengying Zhao, Lei Ju, Chun Xue, Jingtong Hu, Zhiping Jia <br />
+<i>IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA), 2017</i> <br />
+<br />
+</p></td></tr></table>
 
 <p><a name="patent"></a></p>
 <h2>Patents</h2>
