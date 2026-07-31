@@ -24,85 +24,61 @@ try {
 <h1>Qian Lou</h1>
 </div>
 
-<table class="imgtable"><tr><td>
-<img src="images/lq.jpg" alt="Qian Lou" width="250px" />&nbsp;</td>
-<td align="left"><p>
-Assistant Professor <br />
-Computer Science <br />
-University of Central Florida <br />
-Health Sciences II, Room 234 <br />
-Orlando, FL 32827 <br />
-Email: qian.lou at ucf.edu <br />
-[<a href="https://scholar.google.com/citations?user=SBYgXLoAAAAJ">Google Scholar</a>] [<a href="https://www.linkedin.com/in/qianlou/">LinkedIn</a>] [<a href="https://x.com/qianlife22">X</a>]
-</p>
-</td></tr></table>
-
-<h3>
-<a href="#bio">Bio</a> | <a href="#research">Research</a> | <a href="#pubs">Publications</a> | <a href="#teaching">Teaching</a> | <a href="#students">Students</a> | <a href="#awards">Awards</a> | <a href="#service">Service</a>
-</h3>
-
 <!-- =========================
      UPDATED INTRO + MISSION
      ========================= -->
 
+<div class="profiletop">
+<img src="images/lq.jpg" alt="Qian Lou" width="250px" />
+<div class="toplinks">
+<a href="https://scholar.google.com/citations?user=SBYgXLoAAAAJ">Google Scholar</a>
+<a href="https://www.linkedin.com/in/qianlou/">LinkedIn</a>
+<a href="https://x.com/qianlife22">X</a>
+<a href="mailto:qian.lou@ucf.edu">Email</a>
+</div>
+</div>
+
 <p><a name="bio"></a></p>
 <h2>Bio</h2>
+<div class="biosection">
+<div class="biotext">
 <p>
-Qian Lou is an assistant professor in Computer Science at the University of Central Florida.
-Before joining UCF, he worked as a Senior Research Scientist at Samsung AI Center in Mountain View, California.
-He develops open-source models, algorithms, and systems for evolving AI workloads, with a focus on efficiency, security, privacy, and trustworthiness, and he has published 100+ papers in top machine learning, security, and systems venues.
-His work has received a Best Paper Award at Samsung Research and Best Paper Finalist recognitions at PACT and ICCAD.
-He is a recipient of the <b>NSF CAREER Award</b>.
+Qian Lou is a researcher, engineer, and professor developing open-source models, algorithms, and frameworks for evolving AI. He received the <b>NSF CAREER Award</b> in 2026.
 </p>
+<p>
+His work has been published in leading venues such as NeurIPS, ICML, and ICLR. It has also received a Best Paper Award at Samsung Research and Best Paper Finalist recognitions at PACT and ICCAD.
+</p>
+<p>
+His research has been supported by federal agencies, with multi-million-dollar funding since 2025. He brings both industry and academic experience: he was a Senior Research Scientist at Samsung AI Center in Mountain View and is now an Assistant Professor at the University of Central Florida.
+</p>
+</div>
+</div>
+
+<div class="buttonnav">
+<a href="#research">Research</a>
+<a href="#pubs">Publications</a>
+<a href="#students">Students</a>
+<a href="#awards">Awards &amp; Service</a>
+</div>
 
 <p><a name="research"></a></p>
 <h2>Research</h2>
 <p>
-My research builds models, algorithms, and systems to make evolving AI workloads, such as LLMs and agents, efficient and trustworthy.
-A list of my publications is available <a href="#pubs">here</a>.
+My research focuses on AI support and design for AI systems (AI4AI). Test-time compositional AI needs AI-native support for more accurate and efficient task inference and serving. This agenda requires innovations in models, algorithms, and verification frameworks. A list of my publications is available <a href="#pubs">here</a>.
 </p>
 
-<p>Current Projects</p>
 <ul style="font-size: 0.95em;line-height: 1.35;">
   <li>
-    <b>Controllers and Generators for LLMs and Agents.</b>
-    We design efficient and trustworthy control layers such as routing and orchestration across hardware, experts, models, and agents. Representative examples include
-    HW-Router (DAC 2026),
-    SecureRoute (DAC 2026), and
-    <a href="https://routeworks.github.io/leaderboard">R2-Router</a>.
-    On the generation side, we study new model architectures and compression methods, including
-    <a href="https://openreview.net/pdf?id=GWQWAeE9EpB">DictFormer (ICLR 2022)</a>,
-    <a href="https://arxiv.org/pdf/2207.00112">Low-rank language model compression (ICLR 2022)</a>, and
-    <a href="https://openreview.net/pdf?id=RFHq46pjb6">new MoE methods (TMLR 2026)</a>.
+    <b>Test-time routing, orchestration, and control.</b>
+    Representative systems include <a href="https://63dac.conference-program.com/presentation/?id=RESEARCH3129&sess=sess140">HW-Router</a>, <a href="https://openreview.net/forum?id=S3m1tSp8F4&noteId=PPahOFqvJa">R2-Router</a>, <a href="https://arxiv.org/abs/2606.11440">INFRAMIND</a>, and <a href="https://arxiv.org/abs/2607.13359">CoServe</a>.
   </li>
   <li>
-    <b>Safety Evaluation and Guardrails.</b>
-    We study how to disclose, evaluate, and mitigate security risks in LLMs and agents. Examples include
-    <a href="https://arxiv.org/pdf/2306.06815">prompt injection attacks on LLMs (NeurIPS 2023)</a>,
-    <a href="https://arxiv.org/pdf/2406.01873">certified security for language models (ACL 2024)</a>, and
-    privacy guardrails through cryptography, including
-    <a href="https://proceedings.neurips.cc/paper_files/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf">SHE (NeurIPS 2019)</a>,
-    <a href="https://arxiv.org/abs/2502.16782">CipherPrune (ICLR 2025)</a>, and
-    <a href="https://arxiv.org/abs/2510.21086">DictPFL (NeurIPS 2025)</a>.
+    <b>Model architecture and compression.</b>
+    We study dictionary-based, low-rank/tensor, and MoE compression for efficient AI models, including <a href="https://openreview.net/forum?id=GWQWAeE9EpB">DictFormer</a>, <a href="https://arxiv.org/pdf/2207.00112">low-rank language model compression</a>, and <a href="https://openreview.net/pdf?id=RFHq46pjb6">new MoE methods</a>.
   </li>
   <li>
-    <b>Secure Computing via Cryptography.</b>
-    We develop practical cryptographic systems for AI, including verifiable FHE with
-    <a href="https://arxiv.org/abs/2410.15215">DataSeal (S&amp;P 2025)</a>,
-    reliable FHE with <a href="https://dl.acm.org/doi/abs/10.1145/3779212.3790211">ReliaFHE (ASPLOS 2026)</a>,
-    universal support for linear and non-linear computation with
-    <a href="https://github.com/UCF-Lou-Lab-PET/Universal-BGV">Universal BGV (S&amp;P 2026)</a>, and AI agents design/evaluation for FHE programming through
-    <a href="https://fhe-coder.github.io/">FHE-Coder (ICLR 2026)</a>.
-  </li>
-</ul>
-
-<p>Older Projects</p>
-<ul style="font-size: 0.95em;line-height: 1.35;">
-  <li>
-    <b>On-device Designs for AI and Cryptography.</b>
-    Earlier work focused on efficient on-device AI and cryptographic acceleration, including
-    <a href="https://arxiv.org/pdf/1902.05690">AutoQ (ICLR 2020)</a> and
-    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Lou_Lite-MDETR_A_Lightweight_Multi-Modal_Detector_CVPR_2022_paper.pdf">Lite-MDETR (CVPR 2022)</a>.
+    <b>Evaluation frameworks for agentic serving and predictive world models.</b>
+    Representative examples include <a href="https://arxiv.org/abs/2607.13359">CoServe</a> and <a href="https://arxiv.org/abs/2606.09613">AGENTSERVESIM</a>.
   </li>
 </ul>
 
@@ -199,16 +175,6 @@ Have questions? Check out <a href="advisor_guide.html">my answers to the PhD Adv
 <li><p>IEEE Transactions on Information Forensics and Security: Technical Program Committee</p></li>
 <li><p>AI for Content Creation (AI4CC) Workshop @ CVPR 2024: Area Chair</p></li>
 <li><p>AAAI: Senior Program Committee</p></li>
-</ul>
-
-<p><a name="teaching"></a></p>
-<h2>Teaching</h2>
-<ul>
-<li><p>2022 Fall: CDA 5106 Advanced Computer Architecture</p></li>
-<li><p>2023 Spring: CAP 6614 Current Topics in Machine Learning</p></li>
-<li><p>2023 Fall: CDA 5106 Advanced Computer Architecture</p></li>
-<li><p>2024 Spring: CAP 6614 Current Topics in Machine Learning</p></li>
-<li><p>2025 Spring: CAP 6614 Current Topics in Machine Learning</p></li>
 </ul>
 
 

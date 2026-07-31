@@ -624,3 +624,95 @@ table.imgtable p {
 .news-scroll table {
   width: 100%;
 }
+
+.toplinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45em 0.7em;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.75em;
+    margin-bottom: 0.2em;
+}
+
+.toplinks a {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.toplinks a:before {
+    content: "[";
+    color: #444444;
+    margin-right: 0.08em;
+}
+
+.toplinks a:after {
+    content: "]";
+    color: #444444;
+    margin-left: 0.08em;
+}
+
+.buttonnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55em;
+    justify-content: center;
+    margin-bottom: 1.6em;
+}
+
+.buttonnav a {
+    display: inline-block;
+    padding: 0.38em 0.82em;
+    border: 1px solid #c8d2e3;
+    border-radius: 999px;
+    background: #f7f9fc;
+    color: #224b8d;
+    font-size: 0.96em;
+}
+
+.buttonnav a:hover {
+    border-bottom: 1px solid #c8d2e3;
+    background: #eef3fb;
+}
+
+.profiletop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.2em;
+}
+
+.profiletop img {
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.biosection {
+    display: block;
+    margin-bottom: 1.0em;
+}
+
+.biotext {
+    min-width: 0;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+    }
+
+    .profiletop img {
+        max-width: 220px;
+    }
+
+    .toplinks {
+        justify-content: flex-start;
+    }
+
+    .buttonnav {
+        justify-content: flex-start;
+    }
+}
