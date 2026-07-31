@@ -673,7 +673,12 @@ table.imgtable p {
     flex-wrap: wrap;
     gap: 0.55em;
     justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
     margin-bottom: 1.6em;
+    text-align: left;
 }
 
 .buttonnav a {
