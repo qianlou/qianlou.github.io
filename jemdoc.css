@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Helevetica,sans-serif,Geneva,Tahoma; /*ariel, serif; /*Arial, Georgia, serif;*/
+	font-family: Helvetica, Geneva, Tahoma, sans-serif;
 	padding-bottom: 8px;
 	margin: 100;
 	padding-left: 4em;
@@ -611,6 +611,22 @@ table.imgtable p {
    border: 0px;
 }
 
+
+/* Keep prose sections visually consistent across Bio, Research, Students, Awards, and Service. */
+.biosection p,
+#layout-content > p,
+#layout-content > ul,
+#layout-content > ul li,
+.research-list,
+.research-list li {
+    font-size: 0.98em;
+    line-height: 1.35;
+}
+
+.research-list {
+    margin-top: 0.25em;
+}
+
 .news-scroll {
   height: 180px;
   overflow-y: scroll;
@@ -656,7 +672,7 @@ table.imgtable p {
     display: flex;
     flex-wrap: wrap;
     gap: 0.55em;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 1.6em;
 }
 
