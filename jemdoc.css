@@ -377,7 +377,7 @@ table + table {
 }
 
 table.pubentry + table.pubentry {
-    margin-top: 0.28em;
+    margin-top: 0.85em;
 }
 
 tr.heading {
@@ -402,7 +402,15 @@ table.imgtable {
 table.imgtable p {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.08;
+    line-height: 1.32;
+}
+
+table.pubentry {
+    margin-bottom: 0.1em;
+}
+
+table.pubentry td {
+    padding-bottom: 0.15em;
 }
 
 #Highlights td.c1{
@@ -641,6 +649,144 @@ table.imgtable p {
   width: 100%;
 }
 
+.media-feature {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 1.1em;
+    align-items: start;
+    margin: 0.55em 0 1.25em 0;
+}
+
+.media-list {
+    border-top: 1px solid #d8e0ee;
+}
+
+.media-item {
+    padding: 0.75em 0;
+    border-bottom: 1px solid #d8e0ee;
+}
+
+.media-item p {
+    margin: 0.2em 0 0 0;
+    line-height: 1.35;
+}
+
+.media-thumb {
+    display: block;
+    width: 170px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #d8e0ee;
+    margin-top: 0.55em;
+}
+
+.media-photo,
+.lab-photo {
+    margin: 0;
+}
+
+.media-photo img,
+.lab-slider img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #d8e0ee;
+}
+
+.media-photo img {
+    max-height: 360px;
+    object-fit: cover;
+}
+
+.media-photo figcaption,
+.lab-photo figcaption {
+    color: #666666;
+    font-size: 0.88em;
+    margin-top: 0.35em;
+}
+
+.lab-photo {
+    margin: 0.8em 0 1.2em 0;
+}
+
+.lab-slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.lab-slider img {
+    max-height: 430px;
+    object-fit: cover;
+}
+
+.lab-slider img + img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    animation: labFade 10s infinite;
+}
+
+.lab-slider img:first-child {
+    animation: labFadeFirst 10s infinite;
+}
+
+@keyframes labFadeFirst {
+    0%, 45% { opacity: 1; }
+    50%, 95% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes labFade {
+    0%, 45% { opacity: 0; }
+    50%, 95% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.lab-photo img {
+    max-height: 430px;
+    object-fit: cover;
+}
+
+.highlight-kicker {
+    color: #224b8d;
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.compact-support {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.85em;
+    margin-top: 0.7em;
+}
+
+.compact-support img {
+    width: auto;
+    height: 66px;
+    max-width: 170px;
+    object-fit: contain;
+}
+
+.compact-support span {
+    display: inline-block;
+    border: 1px solid #c8d2e3;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #224b8d;
+    font-size: 0.82em;
+    font-weight: 600;
+    padding: 0.18em 0.55em;
+}
+
 .toplinks {
     display: flex;
     flex-wrap: wrap;
@@ -735,5 +881,22 @@ table.imgtable p {
 
     .buttonnav {
         justify-content: flex-start;
+    }
+
+    .media-feature {
+        grid-template-columns: 1fr;
+    }
+
+    .media-photo img {
+        max-height: none;
+    }
+
+    .media-thumb {
+        width: 100%;
+        height: 140px;
+    }
+
+    .lab-photo img {
+        max-height: none;
     }
 }
