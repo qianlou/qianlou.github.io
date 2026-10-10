@@ -1,0 +1,127 @@
+/* Scoped additions to the existing jemdoc template. */
+body.topic-page {
+    margin: 0;
+    padding: 24px clamp(16px, 4vw, 64px) 32px;
+}
+.topic-page #layout-content {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0;
+}
+.topic-page #toptitle {
+    margin-bottom: 24px;
+}
+.topic-page .backlink {
+    font-size: 0.88em;
+    margin-bottom: 12px;
+}
+.topic-page p, .topic-page li {
+    font-size: 0.98rem;
+    line-height: 1.5;
+}
+.topic-page h2, .topic-page h3, .topic-page table[id] {
+    scroll-margin-top: 20px;
+}
+.topic-page h2 {
+    margin-top: 28px;
+    margin-bottom: 14px;
+    line-height: 1.2;
+}
+.topic-page h3 {
+    margin-top: 24px;
+    margin-bottom: 10px;
+    line-height: 1.35;
+}
+.topic-page .research-direction {
+    font-size: 1.15rem;
+    margin-top: 30px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d6dfed;
+}
+.topic-page h4 {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+    margin: 22px 0 8px;
+    scroll-margin-top: 20px;
+}
+.topic-page .buttonnav {
+    gap: 8px;
+}
+.topic-page .buttonnav a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.topic-page .project-list {
+    padding-left: 1.35em;
+}
+.topic-page .project-list li {
+    padding: 0;
+    margin-bottom: 12px;
+}
+.topic-page .publication-note {
+    margin-bottom: 24px;
+}
+.topic-page table.pubentry {
+    width: 100%;
+    margin: 0 0 22px;
+    table-layout: fixed;
+    overflow-wrap: anywhere;
+}
+.topic-page table.pubentry p {
+    line-height: 1.5;
+}
+.topic-page .funding-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+}
+.topic-page .funding-list li {
+    display: grid;
+    grid-template-columns: 4em minmax(0, 1fr);
+    gap: 16px;
+    margin: 0;
+    padding: 14px 0;
+    border-top: 1px solid #d6dfed;
+    scroll-margin-top: 20px;
+}
+.funding-year {
+    color: #527bbd;
+    font-weight: bold;
+}
+.funding-role {
+    color: #444;
+    white-space: nowrap;
+}
+.topic-page .funding-list p {
+    margin: 4px 0 0;
+}
+.topic-footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #aaa;
+}
+.skip-link {
+    position: absolute;
+    left: -10000px;
+}
+.skip-link:focus {
+    left: 16px;
+    top: 8px;
+    padding: 8px;
+    background: white;
+    z-index: 1;
+}
+.topic-page a:focus-visible {
+    outline: 2px solid #224b8d;
+    outline-offset: 3px;
+}
+@media (max-width: 640px) {
+    .topic-page .buttonnav a {
+        font-size: 0.9rem;
+    }
+    .topic-page .funding-list li {
+        grid-template-columns: 3em minmax(0, 1fr);
+        gap: 12px;
+    }
+}

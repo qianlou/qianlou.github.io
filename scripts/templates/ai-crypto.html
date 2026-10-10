@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Qian Lou's research on AI-assisted cryptography and cryptography-protected AI: cryptographic foundations, secure compilers, private applications, and agentic programming." />
+<link rel="stylesheet" href="../jemdoc.css?v=20260912f" />
+<link rel="stylesheet" href="topic.css" />
+<title>Qian Lou | AI and Cryptography</title>
+</head>
+<body class="topic-page">
+<a class="skip-link" href="#research">Skip to research</a>
+<main id="layout-content">
+<div id="toptitle">
+<p class="backlink"><a href="../index.html">All research / Main homepage</a></p>
+<h1>Qian Lou</h1>
+</div>
+
+<!-- SHARED_PROFILE -->
+
+<section aria-labelledby="bio">
+<h2 id="bio">Bio</h2>
+<div class="biosection">
+<p>Qian Lou is a researcher and professor at the University of Central Florida, serving as Principal Investigator on projects supported by NSF, NIH, and Amazon. His research develops AI infrastructure for secure and private computation, private verification, and privacy-preserving learning and data synthesis. He has developed new cryptographic primitives and compilers that enable new AI applications, and develops AI agents for cryptanalysis and cryptographic programming. His goal is to unlock the value of sensitive and distributed data while expanding AI's capabilities and applications.</p>
+<p>He received the <strong>NSF CAREER Award in 2026</strong>. His work appears in leading AI, security, and systems venues, including NeurIPS, ICML, ICLR, IEEE S&amp;P, and DAC. Before joining UCF, he was a Senior Research Scientist at Samsung AI Center in Mountain View. His work has received a Samsung Research Best Paper Award and Best Paper Finalist honors at PACT and ICCAD.</p>
+</div>
+</section>
+
+<nav class="buttonnav" aria-label="Page sections">
+<a href="#research">Research</a>
+<a href="#pubs">Publications</a>
+<a href="#opensource">Open Source</a>
+<a href="#people">People</a>
+<a href="#funding">Funding &amp; Recognition</a>
+<a href="#service">Service</a>
+<a href="../files/Qian_Lou_CV.pdf">CV</a>
+</nav>
+
+<section aria-labelledby="research">
+<h2 id="research">Research</h2>
+<p><strong>How can AI infrastructure enable secure and private computation, private verification, and private learning and data synthesis?</strong></p>
+<p>Driven by this question, our research aims to unlock sensitive data without exposing it, enable verification over private data, and unleash the potential of underused &ldquo;dark data&rdquo; and distributed data. Through these advances, we aim to expand AI's capabilities, scale its deployment, and enable new applications.</p>
+<p>We pursue this goal through two connected directions: <em>Crypto for AI</em> and <em>AI for Crypto</em>. Crypto for AI pursues native-complexity, general-purpose, and verifiable homomorphic encryption (nuvFHE) primitives and sub-linear zero-knowledge proofs for general matrix multiplication (redZKP), and develops compilers such as CipherFlow. Our compiler dynamically and automatically maps AI computation graphs from frameworks such as PyTorch to secure computation graphs using fully homomorphic encryption (FHE), nuvFHE, secure multiparty computation (MPC), and related techniques. These efforts support secure applications in AI training, inference, verification, and data synthesis. We also combine cryptographic foundations with complementary techniques, including trusted hardware and differential privacy. AI for Crypto develops agents for cryptanalysis and for generating and optimizing cryptographic programs under explicit functional and security checks.</p>
+
+<h3 id="crypto-for-ai" class="research-direction">I. Crypto for AI</h3>
+<p>We co-design cryptographic primitives, compilers, and applications to make private computation and verification practical for AI.</p>
+
+<h4 id="foundations">Primitives for private computation and verification</h4>
+<p>We pursue native-complexity, general-purpose, and verifiable homomorphic encryption through <strong>nuvFHE</strong>, alongside <strong>redZKP</strong> for sub-linear zero-knowledge proofs for general matrix multiplication. Our foundational work addresses complementary challenges:</p>
+<ul class="project-list">
+<li><strong>Efficient encrypted computation.</strong> SHE (NeurIPS 2019) co-designs model representations and encrypted arithmetic to reduce computation costs. <a href="https://proceedings.neurips.cc/paper_files/paper/2019/file/56a3107cad6611c8337ee36d178ca129-Paper.pdf">[Paper]</a></li>
+<li><strong>General-purpose encrypted operations.</strong> Universal-BGV (IEEE S&amp;P 2026) connects arithmetic and comparison within one FHE scheme. <a href="https://arxiv.org/pdf/2604.19890">[Paper]</a> <a href="https://github.com/UCF-Lou-Lab-PET/Universal-BGV">[Code]</a></li>
+<li><strong>Verifiable encrypted computation.</strong> DataSeal (IEEE S&amp;P 2025) adds checks for the correctness of supported encrypted computations. <a href="https://arxiv.org/pdf/2410.15215">[Paper]</a></li>
+<li><strong>Private verification.</strong> zkVC (DAC 2025) accelerates zero-knowledge proofs for matrix computations while protecting the server's private information. <a href="https://arxiv.org/pdf/2504.12217">[Paper]</a> <a href="https://github.com/UCF-Lou-Lab-PET/zkformer">[Code]</a></li>
+</ul>
+
+<h4 id="compilers">Compilers connecting AI models to secure execution</h4>
+<p>Our compiler research connects AI computation graphs with secure execution, coordinating model transformations, cryptographic protocols, and hardware choices.</p>
+<ul class="project-list">
+<li><strong>CipherFlow (NeurIPS 2026).</strong> Plans hybrid secure inference using model dependencies and measured hardware and network costs, reducing redundant planning work while coordinating protocol and placement choices. <a href="#pub-cipherflow">[Publication]</a></li>
+<li><strong>HEMET (ICML 2021) and SAFENet (ICLR 2021).</strong> Establish model co-design techniques that reduce protected inference costs while accounting for accuracy. <a href="https://arxiv.org/pdf/2106.00038">[HEMET paper]</a> <a href="https://openreview.net/pdf?id=Cz3dbFm5u-">[SAFENet paper]</a></li>
+</ul>
+
+<h4 id="applications">Applications enabled by privacy and verification</h4>
+<p>We use these foundations to support private learning, inference, verification, and data synthesis. Where appropriate, we combine cryptographic protection with trusted hardware and differential privacy.</p>
+<ul class="project-list">
+<li><strong>Private learning.</strong> DictPFL (NeurIPS 2025) supports federated learning with encrypted gradients. <a href="https://arxiv.org/pdf/2510.21086">[Paper]</a></li>
+<li><strong>Private inference.</strong> SecureRoute (DAC 2026) protects adaptive model selection and inference using MPC. The public preprint is titled <em>SecureRouter</em>. <a href="https://arxiv.org/pdf/2604.15499">[Paper]</a></li>
+<li><strong>Private data synthesis.</strong> FHAIM (ICML 2026) combines encrypted computation with differential privacy to protect source data and the release of synthetic data. <a href="https://arxiv.org/pdf/2602.05838">[Paper]</a></li>
+<li><strong>Healthcare AI.</strong> Our ongoing NIH R01 develops evidence-grounded collaborative agents for bacterial infection decision support, motivating protected access to sensitive institutional data alongside clinical validation and clinician oversight. <a href="#funding-nih">[Funding]</a></li>
+</ul>
+
+<h3 id="agentic-crypto" class="research-direction">II. AI for Crypto</h3>
+<p>We develop AI agents for cryptanalysis and for generating and optimizing cryptographic software, with functional and security requirements guiding the process.</p>
+<ul class="project-list">
+<li><strong>Cryptographic programming.</strong> FHE-Coder (ICLR 2026) combines task formalization, relevant documentation, and external checks to generate functional and secure FHE programs. <a href="https://openreview.net/pdf?id=4F1py5vQXm">[Paper]</a> <a href="https://fhe-coder.github.io/">[Benchmark &amp; project]</a></li>
+<li><strong>Cryptographic optimization (ongoing).</strong> We study agents that improve implementations using execution measurements while preserving functional and security requirements.</li>
+<li><strong>Cryptanalysis (ongoing).</strong> We investigate AI-assisted analysis of cryptographic constructions and implementations.</li>
+</ul>
+<p><strong>Connecting the two directions.</strong> Protected AI applications reveal performance bottlenecks and implementation needs. Our longer-term goal is to use this evidence to guide AI-assisted cryptographic development, with proposed improvements undergoing validation before returning to the secure computing stack.</p>
+</section>
+
+<section aria-labelledby="pubs">
+<h2 id="pubs">Selected Publications</h2>
+<p class="publication-note">* indicates students and staff under my supervision. <a href="../index.html#pubs">Complete publication list</a>.</p>
+<!-- SELECTED_PUBLICATIONS -->
+</section>
+
+<section aria-labelledby="opensource">
+<h2 id="opensource">Open Source</h2>
+<ul class="project-list">
+<li><a href="https://fhe-coder.github.io/">FHE-Coder</a>: benchmark and project resources for agentic FHE programming.</li>
+<li><a href="https://github.com/UCF-Lou-Lab-PET/Universal-BGV">Universal-BGV</a>: FHE arithmetic and comparison through space switching.</li>
+<li><a href="https://github.com/UCF-Lou-Lab-PET/zkformer">zkVC</a>: zero-knowledge proofs for private and verifiable computing.</li>
+<li><a href="https://github.com/UCF-Lou-Lab-PET">UCF-Lou-Lab-PET</a>: our group's privacy-preserving computing and AI repositories.</li>
+</ul>
+</section>
+
+<section aria-labelledby="people">
+<h2 id="people">People</h2>
+<p>This research brings together students and collaborators working on cryptographic computing and AI systems. Selected student contributors include:</p>
+<ul class="project-list">
+<li><strong>Mayank Kumar</strong>: FHE-Coder and FHAIM.</li>
+<li><strong>Jiaqi Xue</strong>: FHE-Coder, DataSeal, and private learning.</li>
+<li><strong>Hedong Zhang</strong>: CipherFlow and secure inference compilation.</li>
+<li><strong>Yukuan Zhang</strong>: SecureRoute and private model routing.</li>
+<li><strong>Erwin Eko Wahyudi</strong> (with Yan Solihin): Universal-BGV.</li>
+</ul>
+<p>Collaborators across these projects include Mengxin Zheng, Yan Solihin, Lei Jiang, Paulo Barreto, Martine De Cock, and Sikha Pentyala. <a href="../index.html#students">Meet the full research group</a>.</p>
+</section>
+
+<section aria-labelledby="funding">
+<h2 id="funding">Funding &amp; Recognition</h2>
+<p>Research and education support spans secure computing, AI systems, healthcare AI, and workforce development.</p>
+<h3>Research &amp; Education Funding</h3>
+<p>PI: Principal Investigator. Co-PI: Co-Principal Investigator.</p>
+<ul class="funding-list">
+<li><span class="funding-year">2026</span><div><strong>Amazon Research Award</strong> <span class="funding-role">(PI)</span><p>Trainium-native controller-guided compression and alignment-preserving post-training.<br />$250K in AWS credits. <a href="https://www.amazon.science/research-awards">[Program]</a></p></div></li>
+<li id="funding-nih"><span class="funding-year">2026</span><div><strong>NIH/NIAID R01</strong> <span class="funding-role">(PI)</span><p>Collaborative AI Agents for Bacterial Infections: A Knowledge-Grounded Framework to Support Clinical Practice Guidelines and Clinical Decision-Making. <a href="https://grants.nih.gov/funding/activity-codes/R01">[Program]</a></p></div></li>
+<li><span class="funding-year">2026</span><div><strong>NSF CyberAI Scholarship for Service (SFS)</strong> <span class="funding-role">(Co-PI)</span><p>CyberAI SFS: Educating Florida's Federal CyberAI Workforce for Secure AI in Space, Defense, and Modeling &amp; Simulation. <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2622846">[Award 2622846]</a></p></div></li>
+<li><span class="funding-year">2026</span><div><strong>NSF CAREER</strong> <span class="funding-role">(PI)</span><p>Scalable, General-Purpose, and Automated Secure Computing for AI Infrastructure. <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2544047">[Award OAC-2544047]</a></p></div></li>
+<li><span class="funding-year">2026</span><div><strong>NSF Research Experiences for Undergraduates (REU)</strong><p>Support for undergraduate research experiences. <a href="https://www.nsf.gov/funding/opportunities/reu-research-experiences-undergraduates">[Program]</a></p></div></li>
+<li><span class="funding-year">2025</span><div><strong>NSF Secure and Trustworthy Cyberspace (SaTC)</strong> <span class="funding-role">(PI)</span><p>Collaborative Research: Privacy-Preserving Synthetic Data Generation. <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2523407">[Award CCF-2523407]</a></p></div></li>
+<li><span class="funding-year">2025</span><div><strong>Department of Defense Pathfinder Program</strong> <span class="funding-role">(PI)</span><p>LLM Security Testing.</p></div></li>
+<li><span class="funding-year">2024</span><div><strong>NSF CISE Core / CSR Small</strong> <span class="funding-role">(PI)</span><p>System Support for Fast, Scalable, and Verifiable Fully Homomorphic Encryption. <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2413232">[Award CNS-2413232]</a></p></div></li>
+<li><span class="funding-year">2024</span><div><strong>Arctic Wolf Networks, Inc.</strong> <span class="funding-role">(Co-PI)</span><p>Industry research support.</p></div></li>
+</ul>
+<h3>Honors &amp; Recognition</h3>
+<ul class="project-list">
+<li><strong>2026: NSF CAREER Award.</strong> <a href="https://www.cecs.ucf.edu/ucf-researcher-aims-to-advance-ai-security-with-nsf-career-award/">[UCF feature]</a></li>
+<li><strong>2026: ASEM-FL Rising Star Award.</strong> <a href="https://www.asemfl.org/rising-stars-portal/">[Program]</a></li>
+<li><strong>2022: Samsung Research Best Paper Award.</strong></li>
+<li><strong>2020: Best Paper Finalist, PACT.</strong></li>
+<li><strong>2018: Best Paper Finalist, ICCAD.</strong></li>
+</ul>
+<p><a href="../index.html#awards">All awards and recognition</a>.</p>
+</section>
+
+<section aria-labelledby="service">
+<h2 id="service">Selected Service &amp; Outreach</h2>
+<ul class="project-list">
+<li><strong>DAC 2026 SPGAI Workshop Chair.</strong> Secure and Private System Design for Generative &amp; Agentic AI. <a href="../SPGAI/">[Workshop]</a></li>
+<li>Program committee service for CCS 2026 and NDSS 2026, and technical program committee service for DAC.</li>
+<li><strong>UCF research feature.</strong> Advancing AI security through the NSF CAREER program. <a href="https://www.cecs.ucf.edu/ucf-researcher-aims-to-advance-ai-security-with-nsf-career-award/">[Read]</a></li>
+</ul>
+</section>
+
+<footer class="topic-footer">
+<p><a href="../index.html#research">Explore all research areas</a> &nbsp; / &nbsp; <a href="../files/Qian_Lou_CV.pdf">Full CV</a> &nbsp; / &nbsp; <a href="mailto:qian.lou@ucf.edu">Contact</a></p>
+</footer>
+</main>
+</body>
+</html>
