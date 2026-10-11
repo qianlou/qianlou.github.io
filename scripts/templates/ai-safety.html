@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Qian Lou's AI safety and security research: attacks and red teaming, defenses and reliable agents, privacy, and provenance." />
+<link rel="stylesheet" href="../jemdoc.css?v=20260912f" />
+<link rel="stylesheet" href="../ai-crypto/topic.css" />
+<title>Qian Lou | AI Safety and Security</title>
+</head>
+<body class="topic-page">
+<a class="skip-link" href="#research">Skip to research</a>
+<main id="layout-content">
+<div id="toptitle">
+<p class="backlink"><a href="../index.html">All research / Main homepage</a></p>
+<h1>Qian Lou</h1>
+</div>
+<!-- SHARED_PROFILE -->
+<section aria-labelledby="bio">
+<h2 id="bio">Bio</h2>
+<div class="biosection">
+<p>Qian Lou is a researcher and professor at the University of Central Florida, serving as Principal Investigator on projects supported by NSF, NIH, and Amazon. His research studies how AI systems fail under adversarial conditions and develops defenses, evaluation methods, and privacy-preserving systems. His work spans prompt and memory attacks, certified robustness, model and text provenance, and verifiable computation. His goal is to make increasingly capable and agentic AI more secure, accountable, and dependable in practice.</p>
+<p>He received the <strong>NSF CAREER Award in 2026</strong>. His work appears in leading AI, security, and systems venues, including NeurIPS, ICML, ICLR, ACL, IEEE S&amp;P, and DAC. Before joining UCF, he was a Senior Research Scientist at Samsung AI Center in Mountain View. His work has received a Samsung Research Best Paper Award and Best Paper Finalist honors at PACT and ICCAD.</p>
+</div>
+</section>
+<nav class="buttonnav" aria-label="Page sections">
+<a href="#research">Research</a>
+<a href="#pubs">Publications</a>
+<a href="#opensource">Open Source</a>
+<a href="#people">People</a>
+<a href="#funding">Funding &amp; Recognition</a>
+<a href="#service">Service</a>
+<a href="../files/Qian_Lou_CV_AI_Safety.pdf">CV</a>
+</nav>
+<section aria-labelledby="research">
+<h2 id="research">Research</h2>
+<p><strong>How can we understand, measure, and reduce the risks of AI systems as they learn, generate content, and act through agents?</strong></p>
+<p>Driven by this question, my research aims to expose hidden vulnerabilities, protect sensitive information, and strengthen the evidence behind trust in AI behavior and outputs. By connecting risk discovery with defenses and verification, we aim to enable broader use of AI without treating security, privacy, and accountability as afterthoughts, especially as agents accumulate memory, interact with other agents, and use external tools.</p>
+<p>We pursue this goal through three connected directions: <em>Attacks and red teaming</em>, <em>Defenses and reliable agents</em>, and <em>Privacy and provenance</em>. We develop attacks and benchmarks that reveal failure modes; detection, mitigation, robustness certification, and external checks that address specific risks; and watermarking, fingerprinting, and cryptographic methods that protect data, assess provenance, and verify supported computations. Our approach connects empirical evaluation with explicit threat models and, where available, formal guarantees.</p>
+
+<h3 id="attacks" class="research-direction">I. Attacks and red teaming</h3>
+<p>We study adversarial behavior across model adaptation, prompting, memory, and multi-agent interaction. These investigations identify where trust assumptions break and provide concrete tests for evaluating defenses.</p>
+<ul class="project-list">
+<li><strong>Prompt and model vulnerabilities.</strong> TrojLLM (NeurIPS 2023) studies automated black-box Trojan prompt attacks on LLMs. TrojText (ICLR 2023) examines invisible test-time Trojan insertion. <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/cf04d01a0e76f8b13095349d9caca033-Paper-Conference.pdf">[TrojLLM paper]</a> <a href="https://openreview.net/pdf?id=ja4Lpp5mqc2">[TrojText paper]</a></li>
+<li><strong>Agent memory and collaboration.</strong> MemIncept (ICML 2026) investigates memory injections that steer LLM agents. Conjunctive Prompt Attacks (ACL 2026, Main Conference Oral) examines vulnerabilities in multi-agent LLM systems. <a href="#pub-memincept">[Memory attacks]</a> <a href="#pub-conjunctive">[Multi-agent attacks]</a></li>
+<li><strong>Multimodal red teaming.</strong> RealM (NeurIPS 2026, Evaluations and Datasets Track) provides a unified red-teaming benchmark for physical-world vision-language models, connecting attacks and defenses through shared evaluation. <a href="#pub-realm">[Publication]</a></li>
+</ul>
+
+<h3 id="defenses" class="research-direction">II. Defenses and reliable agents</h3>
+<p>We turn observed failures into targeted safeguards and measurable evaluation criteria. Detection and mitigation address known attack patterns; certification provides guarantees within a specified perturbation model; and external checks help assess whether an agent's output satisfies task and security requirements.</p>
+<ul class="project-list">
+<li><strong>Certified robustness.</strong> CR-UTP (Findings of ACL 2024) studies certified robustness against universal text perturbations using prompt ensembling and randomized smoothing. Its guarantees concern the specified perturbation setting, not arbitrary agent behavior. <a href="https://aclanthology.org/2024.findings-acl.588.pdf">[Paper]</a> <a href="https://github.com/UCF-ML-Research/CR-UTP">[Code]</a></li>
+<li><strong>Backdoor detection and mitigation.</strong> SSL-Cleanse (ECCV 2024) targets Trojan detection and mitigation in self-supervised learning, complementing our work on exposing vulnerabilities. <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11933.pdf">[Paper]</a> <a href="https://github.com/UCF-ML-Research/SSL-Cleanse">[Code]</a></li>
+<li><strong>Externally checked agent outputs.</strong> FHE-Coder (ICLR 2026) uses functional and security checks in cryptographic code generation. It illustrates how task-specific validation can guide agents beyond simply producing plausible code. <a href="https://openreview.net/pdf?id=4F1py5vQXm">[Paper]</a> <a href="https://fhe-coder.github.io/">[Project]</a></li>
+</ul>
+<p><strong>Evolving agent safety.</strong> Our ongoing agenda is to connect attack discovery, evaluation, and safeguards as agents change their memory, tools, and interaction patterns. The goal is to reassess protection as systems evolve rather than assume that a one-time test establishes lasting safety.</p>
+
+<h3 id="privacy" class="research-direction">III. Privacy and provenance</h3>
+<p>We study complementary ways to protect sensitive computation and establish evidence about models, generated content, and computation results. Watermarking and fingerprinting address attribution; cryptographic methods address confidentiality and verification. Neither attribution nor confidentiality alone establishes that an output is correct or safe.</p>
+<ul class="project-list">
+<li><strong>Text and model provenance.</strong> PRO (NeurIPS 2026) studies robust text watermarking for open-source LLMs. SIF (CVPR 2026) develops semantically in-distribution fingerprints for large vision-language models. <a href="#pub-pro">[PRO publication]</a> <a href="#pub-sif">[SIF publication]</a></li>
+<li><strong>Provenance under realistic changes.</strong> Our EMNLP 2025 and 2026 studies evaluate watermarking under cross-lingual manipulation and in medical text, including factuality, detectability, style shifts, and helpfulness. These studies examine tradeoffs beyond detection alone. <a href="#pub-crosslingual">[Cross-lingual study]</a> <a href="#pub-factuality">[Factuality study]</a> <a href="#pub-clinical-ehr">[Clinical EHR study]</a></li>
+<li><strong>Private and verifiable computation.</strong> SecureRoute (DAC 2026) protects routing and inference using secure multiparty computation. DataSeal (IEEE S&amp;P 2025) adds checks for supported encrypted computations. These systems address data exposure and computation integrity, distinct from behavioral safety. <a href="https://arxiv.org/pdf/2604.15499">[SecureRoute paper]</a> <a href="https://arxiv.org/pdf/2410.15215">[DataSeal paper]</a></li>
+</ul>
+<p><strong>Connecting the directions.</strong> Attacks reveal failure modes; defenses and evaluation test whether those risks are reduced; privacy and provenance mechanisms protect information and support accountability. Together, these directions aim to make trust in AI more evidence-based while keeping each method's assumptions and limitations explicit.</p>
+</section>
+<section aria-labelledby="pubs">
+<h2 id="pubs">Selected Publications</h2>
+<p class="publication-note">* indicates students and staff under my supervision. <a href="../index.html#pubs">Complete publication list</a>.</p>
+<!-- SELECTED_PUBLICATIONS -->
+</section>
+<section aria-labelledby="opensource">
+<h2 id="opensource">Open Source</h2>
+<ul class="project-list">
+<li><a href="https://github.com/UCF-ML-Research/CR-UTP">CR-UTP</a>: certified robustness against universal text perturbations.</li>
+<li><a href="https://github.com/UCF-ML-Research/SSL-Cleanse">SSL-Cleanse</a>: Trojan detection and mitigation in self-supervised learning.</li>
+<li><a href="https://fhe-coder.github.io/">FHE-Coder</a>: benchmark and resources for externally checked cryptographic programming.</li>
+<li><a href="https://github.com/UCF-ML-Research">UCF-ML-Research</a> and <a href="https://github.com/UCF-Lou-Lab-PET">UCF-Lou-Lab-PET</a>: our group's trustworthy learning and privacy-preserving computing resources.</li>
+</ul>
+</section>
+<section aria-labelledby="people">
+<h2 id="people">People</h2>
+<p>Selected contributors across AI security, provenance, and verification include:</p>
+<ul class="project-list">
+<li><strong>Jiaqi Xue</strong>: TrojLLM, PRO, and private computation.</li>
+<li><strong>Yifei Zhao</strong>: RealM, SIF, and watermarking.</li>
+<li><strong>Nokimul Hasan Arif</strong>: conjunctive prompt attacks in multi-agent systems.</li>
+<li><strong>Rochana Prih Hastuti</strong>: clinical-text evaluation and watermarking.</li>
+<li><strong>Mansour Al Ghanim</strong> (alumnus): text watermarking and adversarial robustness.</li>
+<li><strong>Mayank Kumar</strong>: FHE-Coder and secure cryptographic programming.</li>
+</ul>
+<p><a href="../index.html#students">Meet the full research group</a>.</p>
+</section>
+<!-- SHARED_FUNDING -->
+<section aria-labelledby="service">
+<h2 id="service">Selected Service &amp; Outreach</h2>
+<ul class="project-list">
+<li><strong>Program committee service:</strong> CCS and NDSS; area chair service for NeurIPS, ICLR, and ACL.</li>
+<li><strong>DAC 2026 SPGAI Workshop Chair.</strong> Secure and Private System Design for Generative &amp; Agentic AI. <a href="../SPGAI/">[Workshop]</a></li>
+<li><strong>WESH 2 News interview.</strong> Public discussion of AI safety. <a href="https://www.wesh.com/article/ucf-professor-anthropic-employee-warning-ai/73676797">[Interview]</a></li>
+<li><strong>UCF research feature.</strong> Advancing AI security through the NSF CAREER program. <a href="https://www.cecs.ucf.edu/ucf-researcher-aims-to-advance-ai-security-with-nsf-career-award/">[Read]</a></li>
+</ul>
+</section>
+<footer class="topic-footer">
+<p><a href="../index.html">Main homepage</a> &nbsp; / &nbsp; <a href="../agentic-ai/">Agentic AI</a> &nbsp; / &nbsp; <a href="../ai-infra/">AI Infrastructure</a> &nbsp; / &nbsp; <a href="../ai-crypto/">AI &amp; Cryptography</a> &nbsp; / &nbsp; <a href="../files/Qian_Lou_CV.pdf">Full academic CV</a> &nbsp; / &nbsp; <a href="mailto:qian.lou@ucf.edu">Contact</a></p>
+</footer>
+</main>
+</body>
+</html>
