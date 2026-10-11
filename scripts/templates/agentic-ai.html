@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Qian Lou's research on agentic AI: capable and efficient models, collaborative intelligence, trustworthy collaboration, and healthcare applications." />
+<link rel="stylesheet" href="../jemdoc.css?v=20260912f" />
+<link rel="stylesheet" href="../ai-crypto/topic.css" />
+<title>Qian Lou | Agentic AI</title>
+</head>
+<body class="topic-page">
+<a class="skip-link" href="#research">Skip to research</a>
+<main id="layout-content">
+<div id="toptitle">
+<p class="backlink"><a href="../index.html">All research / Main homepage</a></p>
+<h1>Qian Lou</h1>
+</div>
+
+<!-- SHARED_PROFILE -->
+
+<section aria-labelledby="bio">
+<h2 id="bio">Bio</h2>
+<div class="biosection">
+<p>Qian Lou is a researcher and professor at the University of Central Florida, serving as Principal Investigator on projects supported by NSF, NIH, and Amazon. His research connects model innovation, collaborative intelligence, and security to build capable, efficient, and trustworthy AI agents. He studies how models and agents coordinate, use memory, and allocate computation, and how their interactions can remain reliable under resource constraints and security risks. His NIH-supported research brings these questions into knowledge-grounded healthcare decision support.</p>
+<p>He received the <strong>NSF CAREER Award in 2026</strong>. His work appears in leading AI, security, and systems venues, including NeurIPS, ICML, ICLR, ACL, IEEE S&amp;P, and DAC. Before joining UCF, he was a Senior Research Scientist at Samsung AI Center in Mountain View. His work has received a Samsung Research Best Paper Award and Best Paper Finalist honors at PACT and ICCAD.</p>
+</div>
+</section>
+
+<nav class="buttonnav" aria-label="Page sections">
+<a href="#research">Research</a>
+<a href="#healthcare">Healthcare</a>
+<a href="#pubs">Publications</a>
+<a href="#opensource">Open Source</a>
+<a href="#people">People</a>
+<a href="#funding">Funding &amp; Recognition</a>
+<a href="#service">Service</a>
+<a href="../files/Qian_Lou_CV_Agentic_AI.pdf">CV</a>
+</nav>
+
+<section aria-labelledby="research">
+<h2 id="research">Research</h2>
+<p><strong>How can AI agents combine specialized capabilities into collective intelligence that is efficient, reliable, and secure?</strong></p>
+<p>Driven by this question, my research aims to unlock the complementary strengths of models, knowledge, and tools so that AI agents can tackle complex tasks beyond the capabilities of individual models. By making collaboration more effective, affordable, and trustworthy, we aim to expand AI's capabilities, scale its deployment, and enable new applications in healthcare and scientific discovery.</p>
+<p>We pursue this goal through three connected foundations: <em>Capable and efficient models</em>, <em>Collaborative intelligence</em>, and <em>Trustworthy collaboration</em>. We develop model architectures and compression methods that provide efficient building blocks for agents; routing, memory, orchestration, and simulation methods that coordinate models and allocate computation; and attack analysis, evaluation, privacy, and verification mechanisms that address risks in agent interactions and outputs. Our NIH-supported healthcare research brings these foundations together through knowledge-grounded collaborative agents for clinical decision support.</p>
+
+<h3 id="models" class="research-direction">I. Capable and efficient models</h3>
+<p>We develop architectures and compression methods that make model capabilities more affordable and reusable. These model-level foundations support our broader goal of composing specialized capabilities without requiring every agent to use a large, general-purpose model.</p>
+<ul class="project-list">
+<li><strong>Shared representations.</strong> DictFormer (ICLR 2022) uses a shared dictionary to build a compact Transformer architecture. <a href="https://openreview.net/pdf?id=GWQWAeE9EpB">[Paper]</a></li>
+<li><strong>Efficient specialization.</strong> Our weighted low-rank language model compression work (ICLR 2022) reduces model size while accounting for the importance of model parameters. <a href="https://arxiv.org/pdf/2207.00112">[Paper]</a></li>
+</ul>
+
+<h3 id="collaboration" class="research-direction">II. Collaborative intelligence</h3>
+<p>We turn individual capabilities into coordinated computation by deciding which models and agents participate, what information they retain, and how much computation they receive. Our approaches connect routing, memory, and workflow design with serving conditions, while simulation supports the search for better collaboration policies.</p>
+<ul class="project-list">
+<li><strong>Choosing models and reasoning budgets.</strong> R2-Router (ICML 2026) jointly selects a model and an output-length budget, enabling more flexible quality-cost tradeoffs. <a href="https://arxiv.org/pdf/2602.02823">[Paper]</a></li>
+<li><strong>Memory and coordination.</strong> Our gated-memory routing work (EMNLP 2026) studies which information to retain for efficient multi-agent collaboration. Learning Latency-Aware Orchestration (NeurIPS 2026) studies workflows that reduce unnecessary interactions and execution delays. <a href="#pub-gated-memory">[Memory publication]</a> <a href="#pub-orchestration">[Orchestration publication]</a></li>
+<li><strong>Infrastructure-aware collaboration.</strong> INFRAMIND connects planning, model selection, and scheduling to runtime serving conditions. <a href="https://arxiv.org/pdf/2606.11440">[Preprint]</a></li>
+<li><strong>Simulation and policy search.</strong> AgentServeSim provides serving-system simulation and policy search for LLM agent programs, supporting the study of execution strategies before deployment. <a href="https://arxiv.org/pdf/2606.09613">[Preprint]</a></li>
+</ul>
+
+<h3 id="trust" class="research-direction">III. Trustworthy collaboration</h3>
+<p>We study how collaboration can fail and develop safeguards for agent interactions, information, and computation. Attack analysis exposes vulnerabilities in memory and communication; evaluation examines output quality; and privacy and verification mechanisms protect sensitive computation and check supported results. These approaches address distinct risks rather than providing a single end-to-end guarantee.</p>
+<ul class="project-list">
+<li><strong>Adversarial memory and interaction.</strong> MemIncept (ICML 2026) investigates memory injections into LLM agents; our conjunctive prompt attack work (ACL 2026, Main Conference Oral) examines security risks in multi-agent systems. <a href="#pub-memincept">[Memory attacks]</a> <a href="#pub-conjunctive">[Prompt attacks]</a></li>
+<li><strong>Evaluation of clinical text.</strong> Our EMNLP 2025 and 2026 studies examine factuality, watermark detectability, style shifts, and helpfulness in medical text, informing how we evaluate information used or produced by agents. <a href="#pub-factuality">[Factuality study]</a> <a href="#pub-clinical-ehr">[Clinical EHR study]</a></li>
+<li><strong>Privacy and verification.</strong> SecureRoute (DAC 2026) protects model routing and inference, while DataSeal (IEEE S&amp;P 2025) checks supported encrypted computations. FHE-Coder (ICLR 2026) illustrates how programming agents can use external functional and security checks. <a href="https://arxiv.org/pdf/2604.15499">[SecureRoute]</a> <a href="https://arxiv.org/pdf/2410.15215">[DataSeal]</a> <a href="https://openreview.net/pdf?id=4F1py5vQXm">[FHE-Coder]</a></li>
+</ul>
+</section>
+
+<section aria-labelledby="healthcare">
+<h2 id="healthcare">Healthcare: An Integrating Application</h2>
+<p>Our <strong>NIH/NIAID R01</strong> supports research on knowledge-grounded collaborative AI agents for bacterial infection decision support. This application connects <em>capable and efficient models</em> with clinical knowledge, <em>collaborative intelligence</em> with evidence and task coordination, and <em>trustworthy collaboration</em> with evaluation of reliability, privacy, and safety.</p>
+<p><strong>Ongoing research and intended impact.</strong> We aim to help clinicians use relevant evidence and clinical practice guidelines through coordinated AI assistance. Clinical requirements and evaluation will, in turn, guide improvements to our models, collaboration methods, and safeguards. These are funded research objectives, not demonstrated clinical benefits; clinical validation and clinician oversight remain essential. <a href="#funding-nih">[Project and funding]</a></p>
+</section>
+
+<section aria-labelledby="pubs">
+<h2 id="pubs">Selected Publications</h2>
+<p class="publication-note">* indicates students and staff under my supervision. Earlier model and secure-computing papers provide foundations for this agenda. <a href="../index.html#pubs">Complete publication list</a>.</p>
+<!-- SELECTED_PUBLICATIONS -->
+</section>
+
+<section aria-labelledby="opensource">
+<h2 id="opensource">Open Source</h2>
+<ul class="project-list">
+<li><a href="https://github.com/UCF-ML-Research/R2-Router">R2-Router</a>: reasoning-based model routing and output-budget selection.</li>
+<li><a href="https://github.com/UCF-ML-Research">UCF-ML-Research</a>: our group's efficient and trustworthy machine learning repositories.</li>
+<li><a href="https://fhe-coder.github.io/">FHE-Coder</a>: benchmark and project resources for cryptographic programming agents.</li>
+<li><a href="https://github.com/UCF-Lou-Lab-PET">UCF-Lou-Lab-PET</a>: privacy-preserving computing and AI resources.</li>
+</ul>
+</section>
+
+<section aria-labelledby="people">
+<h2 id="people">People</h2>
+<p>Selected student contributors span model routing, collaborative agents, evaluation, and secure programming:</p>
+<ul class="project-list">
+<li><strong>Jiaqi Xue</strong>: R2-Router and Chain-of-Route.</li>
+<li><strong>Ahasan Kabir</strong>: INFRAMIND and hardware-aware model serving.</li>
+<li><strong>Xi Shi</strong>: latency-aware multi-agent orchestration.</li>
+<li><strong>Rakibul Hasan Rajib</strong>: gated-memory routing for multi-agent collaboration.</li>
+<li><strong>Nokimul Hasan Arif</strong>: conjunctive prompt attacks in multi-agent systems.</li>
+<li><strong>Rochana Prih Hastuti</strong>: clinical-text evaluation and watermarking.</li>
+<li><strong>Mayank Kumar</strong>: FHE-Coder and secure agentic programming.</li>
+</ul>
+<p><a href="../index.html#students">Meet the full research group</a>.</p>
+</section>
+
+<!-- SHARED_FUNDING -->
+
+<section aria-labelledby="service">
+<h2 id="service">Selected Service &amp; Outreach</h2>
+<ul class="project-list">
+<li><strong>Area Chair:</strong> NeurIPS, ICLR, and ACL.</li>
+<li><strong>DAC 2026 SPGAI Workshop Chair.</strong> Secure and Private System Design for Generative &amp; Agentic AI. <a href="../SPGAI/">[Workshop]</a></li>
+<li><strong>WESH 2 News interview.</strong> Public discussion of AI safety. <a href="https://www.wesh.com/article/ucf-professor-anthropic-employee-warning-ai/73676797">[Interview]</a></li>
+</ul>
+</section>
+<footer class="topic-footer">
+<p><a href="../index.html">Main homepage</a> &nbsp; / &nbsp; <a href="../ai-crypto/">AI &amp; Cryptography</a> &nbsp; / &nbsp; <a href="../files/Qian_Lou_CV.pdf">Full academic CV</a> &nbsp; / &nbsp; <a href="mailto:qian.lou@ucf.edu">Contact</a></p>
+</footer>
+</main>
+</body>
+</html>
