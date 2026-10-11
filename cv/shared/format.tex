@@ -1,0 +1,21 @@
+% Shared format for the general CV and all topic CVs.
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+\usepackage{xcolor,hyperref,tabularx,enumitem,needspace}
+\definecolor{cvblue}{rgb}{0,0.39609,0.56863}
+\hypersetup{colorlinks=true,urlcolor=cvblue,linkcolor=cvblue,pdfauthor={Qian Lou}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+\emergencystretch=3em
+\clubpenalty=10000
+\widowpenalty=10000
+\setlist[itemize]{leftmargin=1.15em,nosep,topsep=2pt}
+\newcommand{\cvsection}[1]{\par\Needspace{5\baselineskip}\vspace{7pt}{\large\bfseries\color{cvblue}#1\par}\vspace{1pt}{\color{black!55}\hrule}\vspace{4pt}}
+\newcommand{\cvitem}[1]{{\small #1\par}}
+\newcommand{\cvgrant}[3]{\par{\small\begin{tabularx}{\linewidth}{@{}p{0.58in}X@{}}\textbf{#1}&\textbf{#2}\\&\emph{#3}\end{tabularx}\par}\penalty0\vspace{2pt}}
+\newcommand{\cventry}[4]{\par{\small\begin{tabularx}{\linewidth}{@{}Xr@{}}\textbf{#1}&#2\\\emph{#3}&#4\end{tabularx}\par}\penalty0\vspace{2pt}}
+\newcommand{\cvpub}[1]{\par{\small\interlinepenalty=10000\hangindent=1.6em\hangafter=1 #1\par}\penalty0\vspace{1pt}}
+\newcommand{\cvheader}[1]{\begin{center}{\fontsize{25}{27}\selectfont\bfseries Qian Lou\par}\vspace{3pt}{\small\href{#1}{#1}\quad |\quad\href{mailto:qian.lou@ucf.edu}{qian.lou@ucf.edu}\quad |\quad812-558-6704}\end{center}\vspace{-4pt}}
