@@ -14,6 +14,8 @@ VARIANTS = {
                   {66, 63, 58, 56, 53, 51, 47, 44, 42, 40, 15, 13, 5}),
     "agentic-ai": ("Qian_Lou_CV_Agentic_AI", "Agentic AI CV",
                    {70, 69, 65, 64, 62, 61, 59, 56, 51, 46, 40, 19, 18}),
+    "ai-infra": ("Qian_Lou_CV_AI_Infrastructure", "AI Infrastructure CV",
+                 {70, 69, 66, 61, 60, 57, 53, 21, 20, 19, 18, 8}),
 }
 
 

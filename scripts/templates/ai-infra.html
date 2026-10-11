@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Qian Lou's research on AI infrastructure: efficient models, mixture-of-model serving, and hardware-aware, reliable execution." />
+<link rel="stylesheet" href="../jemdoc.css?v=20260912f" />
+<link rel="stylesheet" href="../ai-crypto/topic.css" />
+<title>Qian Lou | AI Infrastructure</title>
+</head>
+<body class="topic-page">
+<a class="skip-link" href="#research">Skip to research</a>
+<main id="layout-content">
+<div id="toptitle">
+<p class="backlink"><a href="../index.html">All research / Main homepage</a></p>
+<h1>Qian Lou</h1>
+</div>
+<!-- SHARED_PROFILE -->
+<section aria-labelledby="bio">
+<h2 id="bio">Bio</h2>
+<div class="biosection">
+<p>Qian Lou is a researcher and professor at the University of Central Florida, serving as Principal Investigator on projects supported by NSF, NIH, and Amazon. His research builds AI infrastructure through the co-design of models, runtime systems, and hardware. He develops efficient model architectures, mixture-of-model routing and serving, and reliable and secure execution systems. His goal is to turn advances in model capabilities into practical services with manageable computation, memory, and deployment costs.</p>
+<p>He received the <strong>NSF CAREER Award in 2026</strong>. His work appears in leading AI, systems, and security venues, including NeurIPS, ICML, ICLR, ISCA, ASPLOS, DAC, and IEEE S&amp;P. Before joining UCF, he was a Senior Research Scientist at Samsung AI Center in Mountain View, where his model research contributed to patents and product translation. His work has received a Samsung Research Best Paper Award and Best Paper Finalist honors at PACT and ICCAD.</p>
+</div>
+</section>
+<nav class="buttonnav" aria-label="Page sections">
+<a href="#research">Research</a>
+<a href="#pubs">Publications</a>
+<a href="#opensource">Open Source</a>
+<a href="#people">People</a>
+<a href="#funding">Funding &amp; Recognition</a>
+<a href="#service">Service</a>
+<a href="../files/Qian_Lou_CV_AI_Infrastructure.pdf">CV</a>
+</nav>
+<section aria-labelledby="research">
+<h2 id="research">Research</h2>
+<p><strong>How can we co-design AI models and computing infrastructure to deliver greater capabilities with lower cost, predictable performance, and reliable execution?</strong></p>
+<p>Driven by this question, my research aims to unlock the combined potential of specialized models and computing resources. We seek to move beyond serving each model in isolation toward infrastructure that composes models, adapts execution to changing workloads, and uses hardware effectively. Through these advances, we aim to make increasingly capable AI more affordable, scale its deployment, and support demanding applications without treating efficiency, reliability, and security as afterthoughts.</p>
+<p>We pursue this goal through three connected directions: <em>Efficient model architectures and algorithms</em>, <em>Mixture-of-model serving and runtime control</em>, and <em>Hardware-aware, reliable execution</em>. We develop reusable model representations and compression methods; routing, scheduling, and simulation methods that connect model choices to runtime conditions; and compiler and hardware designs that address execution cost, resilience, and secure computation. The unifying approach is cross-layer co-design: model structure informs execution, while measurements and hardware constraints guide model and system decisions.</p>
+
+<h3 id="models" class="research-direction">I. Efficient model architectures and algorithms</h3>
+<p>We reduce the computation and storage needed to provide useful model capabilities through architectural innovation, compression, and quantization. These methods provide efficient building blocks for both individual models and multi-model services.</p>
+<ul class="project-list">
+<li><strong>Reusable representations.</strong> DictFormer (ICLR 2022) builds a compact Transformer using a shared dictionary. The work led to patents and translation into Samsung products. <a href="https://openreview.net/pdf?id=GWQWAeE9EpB">[Paper]</a></li>
+<li><strong>Compression and quantization.</strong> Weighted low-rank language model compression (ICLR 2022) accounts for parameter importance, while AutoQ (ICLR 2020) studies automated kernel-wise quantization. <a href="https://arxiv.org/pdf/2207.00112">[Compression paper]</a> <a href="https://arxiv.org/pdf/1902.05690">[AutoQ paper]</a></li>
+<li><strong>Lightweight multimodal models.</strong> Lite-MDETR (CVPR 2022) studies compact multimodal detection, extending efficient model design beyond text-only workloads. <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Lou_Lite-MDETR_A_Lightweight_Multi-Modal_Detector_CVPR_2022_paper.pdf">[Paper]</a></li>
+</ul>
+
+<h3 id="serving" class="research-direction">II. Mixture-of-model serving and runtime control</h3>
+<p>We study how to select and serve multiple models as a coordinated system, rather than optimizing each model independently. Routing, reasoning budgets, memory state, and scheduling must respond to both task requirements and the state of the serving infrastructure.</p>
+<ul class="project-list">
+<li><strong>Hardware-aware routing.</strong> HW-Router (DAC 2026) brings hardware awareness to scalable multi-LLM serving. R2-Router (ICML 2026) jointly selects models and output-length budgets to balance quality and cost. <a href="https://63dac.conference-program.com/presentation/?id=RESEARCH3129&amp;sess=sess140">[HW-Router publication]</a> <a href="https://arxiv.org/pdf/2602.02823">[R2-Router paper]</a></li>
+<li><strong>Stateful and multi-agent execution.</strong> Chain-of-Route (NeurIPS 2026) studies state-aware routing across conversation turns. Learning Latency-Aware Orchestration (NeurIPS 2026) connects multi-agent workflow choices with end-to-end latency. <a href="#pub-chain-of-route">[Chain-of-Route publication]</a> <a href="https://arxiv.org/pdf/2607.13359">[Orchestration paper]</a></li>
+<li><strong>Infrastructure-aware control.</strong> INFRAMIND conditions planning, per-step model choices, and scheduling on runtime signals such as queue depth and cache pressure. <a href="https://arxiv.org/pdf/2606.11440">[Preprint]</a></li>
+<li><strong>Serving simulation and policy search.</strong> AgentServeSim models agent programs, cross-turn state, and scheduling decisions. It is evaluated against real vLLM deployments and supports automated serving-policy search. <a href="https://arxiv.org/pdf/2606.09613">[Preprint]</a></li>
+</ul>
+
+<h3 id="execution" class="research-direction">III. Hardware-aware, reliable execution</h3>
+<p>We connect workload requirements to compilers, memory systems, and accelerators. The aim is to improve performance without ignoring faults, resource constraints, or the additional costs of protected computation.</p>
+<ul class="project-list">
+<li><strong>Reliable memory systems.</strong> HBM-CASO (ISCA 2026) coordinates system-level and on-die error correction for high-bandwidth memory. <a href="#pub-hbm-caso">[Publication]</a></li>
+<li><strong>Compiler and protocol co-design.</strong> CipherFlow (NeurIPS 2026) plans hybrid secure inference with awareness of hardware and network costs. This connects execution planning to the requirements of protected AI workloads. <a href="#pub-cipherflow">[Publication]</a></li>
+<li><strong>Resilient and specialized accelerators.</strong> ReliaFHE (ASPLOS 2026) addresses resilience in FHE accelerators; MATCHA (DAC 2022) studies fast, energy-efficient acceleration for FHE over the torus. <a href="https://dl.acm.org/doi/10.1145/3779212.3790211">[ReliaFHE publisher]</a> <a href="https://arxiv.org/pdf/2202.08814">[MATCHA paper]</a></li>
+</ul>
+<p><strong>Connecting the directions.</strong> Model design determines what must be computed; runtime control determines which models run, when, and with what budget; compilers and hardware determine how efficiently and reliably that computation executes. Our research aims to close this loop through measurement and co-design, turning separate optimizations into more effective AI infrastructure.</p>
+</section>
+
+<section aria-labelledby="pubs">
+<h2 id="pubs">Selected Publications</h2>
+<p class="publication-note">* indicates students and staff under my supervision. INFRAMIND and AgentServeSim are linked above as preprints. <a href="../index.html#pubs">Complete publication list</a>.</p>
+<!-- SELECTED_PUBLICATIONS -->
+</section>
+<section aria-labelledby="opensource">
+<h2 id="opensource">Open Source</h2>
+<ul class="project-list">
+<li><a href="https://github.com/UCF-ML-Research/R2-Router">R2-Router</a>: model routing and output-budget selection.</li>
+<li><a href="https://github.com/UCF-ML-Research">UCF-ML-Research</a>: efficient and trustworthy machine learning repositories.</li>
+<li><a href="https://github.com/UCF-Lou-Lab-PET">UCF-Lou-Lab-PET</a>: privacy-preserving computing and secure AI system resources.</li>
+</ul>
+</section>
+<section aria-labelledby="people">
+<h2 id="people">People</h2>
+<p>Selected student contributors connect model routing, serving systems, and secure execution:</p>
+<ul class="project-list">
+<li><strong>Ahasan Kabir</strong>: HW-Router and INFRAMIND.</li>
+<li><strong>Jiaqi Xue</strong>: R2-Router and Chain-of-Route.</li>
+<li><strong>Rakibul Hasan Rajib</strong>: AgentServeSim.</li>
+<li><strong>Xi Shi</strong>: latency-aware multi-agent orchestration.</li>
+<li><strong>Hedong Zhang</strong>: CipherFlow and secure inference compilation.</li>
+<li><strong>Mayank Kumar</strong>: ReliaFHE and secure computing.</li>
+</ul>
+<p><a href="../index.html#students">Meet the full research group</a>.</p>
+</section>
+<!-- SHARED_FUNDING -->
+<section aria-labelledby="service">
+<h2 id="service">Selected Service &amp; Outreach</h2>
+<ul class="project-list">
+<li><strong>Program committee service:</strong> ISCA, DAC, and ICCAD; area chair service for NeurIPS and ICLR.</li>
+<li><strong>DAC 2026 SPGAI Workshop Chair.</strong> Secure and Private System Design for Generative &amp; Agentic AI. <a href="../SPGAI/">[Workshop]</a></li>
+<li><strong>UCF research feature.</strong> Advancing AI security through the NSF CAREER program. <a href="https://www.cecs.ucf.edu/ucf-researcher-aims-to-advance-ai-security-with-nsf-career-award/">[Read]</a></li>
+</ul>
+</section>
+<footer class="topic-footer">
+<p><a href="../index.html">Main homepage</a> &nbsp; / &nbsp; <a href="../agentic-ai/">Agentic AI</a> &nbsp; / &nbsp; <a href="../ai-crypto/">AI &amp; Cryptography</a> &nbsp; / &nbsp; <a href="../files/Qian_Lou_CV.pdf">Full academic CV</a> &nbsp; / &nbsp; <a href="mailto:qian.lou@ucf.edu">Contact</a></p>
+</footer>
+</main>
+</body>
+</html>
