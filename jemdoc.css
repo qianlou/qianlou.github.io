@@ -859,6 +859,38 @@ table.pubentry td {
     background: #eef3fb;
 }
 
+.research-directions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35em 0.8em;
+    margin: 1em 0 1.2em;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.research-directions-label {
+    font-weight: bold;
+}
+
+.research-directions ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35em 1.2em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.research-directions li {
+    margin: 0;
+    padding: 0;
+}
+
+.research-directions a {
+    display: inline-block;
+}
+
 .profiletop {
     display: flex;
     flex-direction: column;
